@@ -356,3 +356,141 @@ A world backup will be automatically created in your saves directory.
 [12Apr2025 21:19:36.333] [Server thread/INFO] [voicechat/]: [voicechat] Disconnecting client nico
 [12Apr2025 21:19:45.163] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Agus2000: Set the time to 1000]
 [12Apr2025 21:19:55.932] [Server thread/INFO] [net.minecraft.server.network.ServerLoginPacketListenerImpl/]: com.mojang.authlib.GameProfile@1750bca8[id=<null>,name=Uripapii,properties={},legacy=false] (/100.127.199.75:60936) lost connection: Disconnected
+[12Apr2025 21:20:25.790] [Server thread/INFO] [net.minecraft.server.players.PlayerList/]: Weckstone[/100.89.200.33:8149] logged in with entity id 7380 at (-545.1176177726024, 65.75052205491455, 54.00574292671542)
+[12Apr2025 21:20:25.797] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Weckstone joined the game
+[12Apr2025 21:20:26.447] [Server thread/INFO] [voicechat/]: [voicechat] Received secret request of Weckstone (18)
+[12Apr2025 21:20:26.447] [Server thread/INFO] [voicechat/]: [voicechat] Sent secret to Weckstone
+[12Apr2025 21:20:48.482] [Server thread/INFO] [net.minecraft.server.network.ServerLoginPacketListenerImpl/]: com.mojang.authlib.GameProfile@7e8d7cf1[id=<null>,name=Uripapii,properties={},legacy=false] (/100.127.199.75:60974) lost connection: Disconnected
+[12Apr2025 21:20:51.667] [VoiceChatPacketProcessingThread/INFO] [voicechat/]: [voicechat] Successfully authenticated player c18264b0-4ecc-35bd-9b04-1a8072c0ebf9
+[12Apr2025 21:20:53.687] [VoiceChatPacketProcessingThread/INFO] [voicechat/]: [voicechat] Successfully validated connection of player c18264b0-4ecc-35bd-9b04-1a8072c0ebf9
+[12Apr2025 21:20:53.687] [VoiceChatPacketProcessingThread/INFO] [voicechat/]: [voicechat] Player Weckstone (c18264b0-4ecc-35bd-9b04-1a8072c0ebf9) successfully connected to voice chat
+[12Apr2025 21:22:46.284] [Server thread/INFO] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Weckstone lost connection: Disconnected
+[12Apr2025 21:22:46.284] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Weckstone left the game
+[12Apr2025 21:22:46.285] [Server thread/INFO] [voicechat/]: [voicechat] Disconnecting client Weckstone
+[12Apr2025 21:22:49.888] [Server thread/INFO] [net.minecraft.server.players.PlayerList/]: nico[/100.107.132.79:49616] logged in with entity id 7848 at (-545.1176177726024, 65.75052205491455, 54.00574292671542)
+[12Apr2025 21:22:49.904] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: nico joined the game
+[12Apr2025 21:22:52.091] [Server thread/INFO] [voicechat/]: [voicechat] Received secret request of nico (18)
+[12Apr2025 21:22:52.092] [Server thread/INFO] [voicechat/]: [voicechat] Sent secret to nico
+[12Apr2025 21:22:52.092] [Server thread/WARN] [de.teamlapen.lib.network.ClientboundUpdateEntityPacket/]: There is nothing to update for entity ServerPlayer['nico'/7848, l='ServerLevel[world]', x=-545.12, y=65.75, z=54.01, removed=KILLED]
+[12Apr2025 21:22:54.832] [Server thread/INFO] [net.minecraft.server.network.ServerLoginPacketListenerImpl/]: com.mojang.authlib.GameProfile@522428e5[id=<null>,name=Uripapii,properties={},legacy=false] (/100.127.199.75:60983) lost connection: Timed out
+[12Apr2025 21:23:13.840] [VoiceChatPacketProcessingThread/INFO] [voicechat/]: [voicechat] Successfully authenticated player 322a72ff-3428-3ccb-94a8-c815a947bb44
+[12Apr2025 21:23:14.826] [VoiceChatPacketProcessingThread/INFO] [voicechat/]: [voicechat] Successfully validated connection of player 322a72ff-3428-3ccb-94a8-c815a947bb44
+[12Apr2025 21:23:14.826] [VoiceChatPacketProcessingThread/INFO] [voicechat/]: [voicechat] Player nico (322a72ff-3428-3ccb-94a8-c815a947bb44) successfully connected to voice chat
+[12Apr2025 21:23:19.007] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Agus2000: Teleported 5 entities to Agus2000]
+[12Apr2025 21:23:21.882] [Server thread/INFO] [net.minecraft.server.network.ServerLoginPacketListenerImpl/]: com.mojang.authlib.GameProfile@68cba8d1[id=<null>,name=Uripapii,properties={},legacy=false] (/100.127.199.75:61002) lost connection: Disconnected
+[12Apr2025 21:23:34.580] [Server thread/INFO] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: genaraab lost connection: Disconnected
+[12Apr2025 21:23:34.581] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: genaraab left the game
+[12Apr2025 21:23:34.581] [Server thread/INFO] [voicechat/]: [voicechat] Disconnecting client genaraab
+[12Apr2025 21:23:34.982] [Server thread/INFO] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: nico lost connection: Timed out
+[12Apr2025 21:23:34.982] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: nico left the game
+[12Apr2025 21:23:34.982] [Server thread/INFO] [voicechat/]: [voicechat] Disconnecting client nico
+[12Apr2025 21:23:41.382] [Server thread/INFO] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Ostera lost connection: Disconnected
+[12Apr2025 21:23:41.382] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Ostera left the game
+[12Apr2025 21:23:41.383] [Server thread/INFO] [voicechat/]: [voicechat] Disconnecting client Ostera
+[12Apr2025 21:23:58.781] [Server thread/INFO] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: maxiluxmaxxing lost connection: Disconnected
+[12Apr2025 21:23:58.781] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: maxiluxmaxxing left the game
+[12Apr2025 21:23:58.782] [Server thread/INFO] [voicechat/]: [voicechat] Disconnecting client maxiluxmaxxing
+[12Apr2025 21:24:00.687] [Server thread/INFO] [net.minecraft.server.players.PlayerList/]: nico[/100.107.132.79:49645] logged in with entity id 8189 at (-545.2002750755335, 64.0, 55.22047056740946)
+[12Apr2025 21:24:00.692] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: nico joined the game
+[12Apr2025 21:24:02.349] [Server thread/INFO] [voicechat/]: [voicechat] Received secret request of nico (18)
+[12Apr2025 21:24:02.350] [Server thread/INFO] [voicechat/]: [voicechat] Sent secret to nico
+[12Apr2025 21:24:23.537] [Server thread/INFO] [net.minecraft.server.players.PlayerList/]: genaraab[/100.65.35.55:53881] logged in with entity id 8245 at (-546.329817649425, 64.0, 57.016887590546574)
+[12Apr2025 21:24:23.542] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: genaraab joined the game
+[12Apr2025 21:24:24.212] [Server thread/INFO] [voicechat/]: [voicechat] Received secret request of genaraab (18)
+[12Apr2025 21:24:24.212] [Server thread/INFO] [voicechat/]: [voicechat] Sent secret to genaraab
+[12Apr2025 21:24:27.747] [VoiceChatPacketProcessingThread/INFO] [voicechat/]: [voicechat] Successfully authenticated player 86e5135b-db4e-3616-93e3-4fa422657a9c
+[12Apr2025 21:24:28.784] [VoiceChatPacketProcessingThread/INFO] [voicechat/]: [voicechat] Successfully validated connection of player 86e5135b-db4e-3616-93e3-4fa422657a9c
+[12Apr2025 21:24:28.785] [VoiceChatPacketProcessingThread/INFO] [voicechat/]: [voicechat] Player genaraab (86e5135b-db4e-3616-93e3-4fa422657a9c) successfully connected to voice chat
+[12Apr2025 21:24:39.030] [Server thread/INFO] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: nico lost connection: Timed out
+[12Apr2025 21:24:39.030] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: nico left the game
+[12Apr2025 21:24:39.031] [Server thread/INFO] [voicechat/]: [voicechat] Disconnecting client nico
+[12Apr2025 21:24:54.296] [Server thread/INFO] [net.minecraft.server.players.PlayerList/]: nico[/100.107.132.79:49657] logged in with entity id 8390 at (-545.2002750755335, 64.0, 55.22047056740946)
+[12Apr2025 21:24:54.302] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: nico joined the game
+[12Apr2025 21:24:54.854] [Server thread/INFO] [voicechat/]: [voicechat] Received secret request of nico (18)
+[12Apr2025 21:24:54.855] [Server thread/INFO] [voicechat/]: [voicechat] Sent secret to nico
+[12Apr2025 21:25:00.535] [Server thread/INFO] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: genaraab lost connection: Disconnected
+[12Apr2025 21:25:00.535] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: genaraab left the game
+[12Apr2025 21:25:00.536] [Server thread/INFO] [voicechat/]: [voicechat] Disconnecting client genaraab
+[12Apr2025 21:25:06.388] [Server thread/INFO] [net.minecraft.server.players.PlayerList/]: genaraab[/100.65.35.55:53923] logged in with entity id 8417 at (-543.2995927172673, 64.0625, 53.86271809706249)
+[12Apr2025 21:25:06.393] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: genaraab joined the game
+[12Apr2025 21:25:06.820] [Server thread/INFO] [voicechat/]: [voicechat] Received secret request of genaraab (18)
+[12Apr2025 21:25:06.821] [Server thread/INFO] [voicechat/]: [voicechat] Sent secret to genaraab
+[12Apr2025 21:25:15.998] [VoiceChatPacketProcessingThread/INFO] [voicechat/]: [voicechat] Successfully authenticated player 322a72ff-3428-3ccb-94a8-c815a947bb44
+[12Apr2025 21:25:18.680] [VoiceChatPacketProcessingThread/INFO] [voicechat/]: [voicechat] Successfully authenticated player 86e5135b-db4e-3616-93e3-4fa422657a9c
+[12Apr2025 21:25:19.488] [Server thread/INFO] [net.minecraft.server.players.PlayerList/]: Ostera[/100.80.244.12:56487] logged in with entity id 8447 at (-542.9428906682573, 64.0625, 55.46932169999307)
+[12Apr2025 21:25:19.493] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Ostera joined the game
+[12Apr2025 21:25:19.683] [VoiceChatPacketProcessingThread/INFO] [voicechat/]: [voicechat] Successfully validated connection of player 86e5135b-db4e-3616-93e3-4fa422657a9c
+[12Apr2025 21:25:19.683] [VoiceChatPacketProcessingThread/INFO] [voicechat/]: [voicechat] Player genaraab (86e5135b-db4e-3616-93e3-4fa422657a9c) successfully connected to voice chat
+[12Apr2025 21:25:20.004] [VoiceChatPacketProcessingThread/INFO] [voicechat/]: [voicechat] Successfully validated connection of player 322a72ff-3428-3ccb-94a8-c815a947bb44
+[12Apr2025 21:25:20.004] [VoiceChatPacketProcessingThread/INFO] [voicechat/]: [voicechat] Player nico (322a72ff-3428-3ccb-94a8-c815a947bb44) successfully connected to voice chat
+[12Apr2025 21:25:20.631] [Server thread/INFO] [voicechat/]: [voicechat] Received secret request of Ostera (18)
+[12Apr2025 21:25:20.632] [Server thread/INFO] [voicechat/]: [voicechat] Sent secret to Ostera
+[12Apr2025 21:25:22.538] [Server thread/INFO] [net.minecraft.server.players.PlayerList/]: maxiluxmaxxing[/100.102.81.69:64435] logged in with entity id 8448 at (-545.4566213477136, 64.0625, 58.05835022426896)
+[12Apr2025 21:25:22.543] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: maxiluxmaxxing joined the game
+[12Apr2025 21:25:23.285] [Server thread/INFO] [voicechat/]: [voicechat] Received secret request of maxiluxmaxxing (18)
+[12Apr2025 21:25:23.286] [Server thread/INFO] [voicechat/]: [voicechat] Sent secret to maxiluxmaxxing
+[12Apr2025 21:25:24.720] [VoiceChatPacketProcessingThread/INFO] [voicechat/]: [voicechat] Successfully authenticated player 745233b0-54fc-3585-b02b-cc08bb97b580
+[12Apr2025 21:25:25.756] [VoiceChatPacketProcessingThread/INFO] [voicechat/]: [voicechat] Successfully validated connection of player 745233b0-54fc-3585-b02b-cc08bb97b580
+[12Apr2025 21:25:25.756] [VoiceChatPacketProcessingThread/INFO] [voicechat/]: [voicechat] Player Ostera (745233b0-54fc-3585-b02b-cc08bb97b580) successfully connected to voice chat
+[12Apr2025 21:25:26.560] [VoiceChatPacketProcessingThread/INFO] [voicechat/]: [voicechat] Successfully authenticated player 323edfcc-57b8-34a2-a801-88080d716c6a
+[12Apr2025 21:25:27.535] [VoiceChatPacketProcessingThread/INFO] [voicechat/]: [voicechat] Successfully validated connection of player 323edfcc-57b8-34a2-a801-88080d716c6a
+[12Apr2025 21:25:27.536] [VoiceChatPacketProcessingThread/INFO] [voicechat/]: [voicechat] Player maxiluxmaxxing (323edfcc-57b8-34a2-a801-88080d716c6a) successfully connected to voice chat
+[12Apr2025 21:25:54.431] [Server thread/INFO] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: nico lost connection: Timed out
+[12Apr2025 21:25:54.431] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: nico left the game
+[12Apr2025 21:25:54.432] [Server thread/INFO] [voicechat/]: [voicechat] Disconnecting client nico
+[12Apr2025 21:26:09.488] [Server thread/INFO] [net.minecraft.server.players.PlayerList/]: Weckstone[/100.89.200.33:28468] logged in with entity id 8604 at (-546.2454613488237, 64.0, 53.34024317076056)
+[12Apr2025 21:26:09.494] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Weckstone joined the game
+[12Apr2025 21:26:10.796] [Server thread/INFO] [voicechat/]: [voicechat] Received secret request of Weckstone (18)
+[12Apr2025 21:26:10.796] [Server thread/INFO] [voicechat/]: [voicechat] Sent secret to Weckstone
+[12Apr2025 21:26:23.731] [Server thread/INFO] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: genaraab lost connection: Timed out
+[12Apr2025 21:26:23.731] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: genaraab left the game
+[12Apr2025 21:26:23.731] [Server thread/INFO] [voicechat/]: [voicechat] Disconnecting client genaraab
+[12Apr2025 21:26:28.239] [Server thread/INFO] [net.minecraft.server.players.PlayerList/]: nico[/100.107.132.79:49720] logged in with entity id 8704 at (-545.2002750755335, 64.0, 55.22047056740946)
+[12Apr2025 21:26:28.245] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: nico joined the game
+[12Apr2025 21:26:30.361] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <Weckstone> SEXO
+[12Apr2025 21:26:31.082] [Server thread/INFO] [net.minecraft.server.network.ServerLoginPacketListenerImpl/]: com.mojang.authlib.GameProfile@76d9e525[id=<null>,name=genaraab,properties={},legacy=false] (/100.65.35.55:53954) lost connection: Disconnected
+[12Apr2025 21:26:33.703] [Server thread/INFO] [voicechat/]: [voicechat] Received secret request of nico (18)
+[12Apr2025 21:26:33.703] [Server thread/INFO] [voicechat/]: [voicechat] Sent secret to nico
+[12Apr2025 21:26:39.582] [Server thread/INFO] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Weckstone lost connection: Timed out
+[12Apr2025 21:26:39.582] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Weckstone left the game
+[12Apr2025 21:26:39.583] [Server thread/INFO] [voicechat/]: [voicechat] Disconnecting client Weckstone
+[12Apr2025 21:26:40.891] [Server thread/INFO] [net.minecraft.server.players.PlayerList/]: genaraab[/100.65.35.55:53957] logged in with entity id 8716 at (-545.9727974667104, 64.0, 55.94562474020644)
+[12Apr2025 21:26:40.896] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: genaraab joined the game
+[12Apr2025 21:26:41.510] [Server thread/INFO] [voicechat/]: [voicechat] Received secret request of genaraab (18)
+[12Apr2025 21:26:41.510] [Server thread/INFO] [voicechat/]: [voicechat] Sent secret to genaraab
+[12Apr2025 21:26:58.284] [Server thread/INFO] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: genaraab lost connection: Disconnected
+[12Apr2025 21:26:58.285] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: genaraab left the game
+[12Apr2025 21:26:58.285] [Server thread/INFO] [voicechat/]: [voicechat] Disconnecting client genaraab
+[12Apr2025 21:27:11.833] [Server thread/INFO] [net.minecraft.server.network.ServerLoginPacketListenerImpl/]: com.mojang.authlib.GameProfile@5762b1c6[id=<null>,name=genaraab,properties={},legacy=false] (/100.65.35.55:53966) lost connection: Disconnected
+[12Apr2025 21:27:12.683] [Server thread/INFO] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: nico lost connection: Timed out
+[12Apr2025 21:27:12.683] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: nico left the game
+[12Apr2025 21:27:12.683] [Server thread/INFO] [voicechat/]: [voicechat] Disconnecting client nico
+[12Apr2025 21:27:27.983] [Server thread/INFO] [net.minecraft.server.network.ServerLoginPacketListenerImpl/]: com.mojang.authlib.GameProfile@2cea2539[id=<null>,name=Weckstone,properties={},legacy=false] (/100.89.200.33:28518) lost connection: Disconnected
+[12Apr2025 21:28:14.938] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Ostera drowned
+[12Apr2025 21:28:20.539] [Server thread/INFO] [net.minecraft.server.network.ServerLoginPacketListenerImpl/]: Disconnecting com.mojang.authlib.GameProfile@557741e5[id=<null>,name=nico,properties={},legacy=false] (/100.107.132.79:49731): Took too long to log in
+[12Apr2025 21:28:20.540] [Server thread/INFO] [net.minecraft.server.network.ServerLoginPacketListenerImpl/]: com.mojang.authlib.GameProfile@557741e5[id=<null>,name=nico,properties={},legacy=false] (/100.107.132.79:49731) lost connection: Took too long to log in
+[12Apr2025 21:28:20.589] [Server thread/WARN] [net.minecraft.network.Connection/]: handleDisconnection() called twice
+[12Apr2025 21:28:24.090] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Agus2000: Teleported 3 entities to Agus2000]
+[12Apr2025 21:28:25.138] [Server thread/INFO] [net.minecraft.server.players.PlayerList/]: genaraab[/100.65.35.55:54039] logged in with entity id 9477 at (-545.9727974667104, 64.0, 55.94562474020644)
+[12Apr2025 21:28:25.143] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: genaraab joined the game
+[12Apr2025 21:28:25.971] [Server thread/INFO] [voicechat/]: [voicechat] Received secret request of genaraab (18)
+[12Apr2025 21:28:25.971] [Server thread/INFO] [voicechat/]: [voicechat] Sent secret to genaraab
+[12Apr2025 21:28:32.528] [VoiceChatPacketProcessingThread/INFO] [voicechat/]: [voicechat] Successfully authenticated player 86e5135b-db4e-3616-93e3-4fa422657a9c
+[12Apr2025 21:28:33.532] [VoiceChatPacketProcessingThread/INFO] [voicechat/]: [voicechat] Successfully validated connection of player 86e5135b-db4e-3616-93e3-4fa422657a9c
+[12Apr2025 21:28:33.533] [VoiceChatPacketProcessingThread/INFO] [voicechat/]: [voicechat] Player genaraab (86e5135b-db4e-3616-93e3-4fa422657a9c) successfully connected to voice chat
+[12Apr2025 21:28:35.285] [Server thread/INFO] [net.minecraft.server.network.ServerLoginPacketListenerImpl/]: com.mojang.authlib.GameProfile@41345a78[id=<null>,name=Weckstone,properties={},legacy=false] (/100.89.200.33:28545) lost connection: Disconnected
+[12Apr2025 21:28:41.631] [Server thread/INFO] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Agus2000 lost connection: Disconnected
+[12Apr2025 21:28:41.631] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Agus2000 left the game
+[12Apr2025 21:28:41.631] [Server thread/INFO] [voicechat/]: [voicechat] Disconnecting client Agus2000
+[12Apr2025 21:28:45.084] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: maxiluxmaxxing suffocated in a wall
+[12Apr2025 21:28:45.886] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Stopping the server
+[12Apr2025 21:28:45.923] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Stopping server
+[12Apr2025 21:28:45.925] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving players
+[12Apr2025 21:28:45.933] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving worlds
+[12Apr2025 21:28:46.493] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[world]'/minecraft:overworld
+[12Apr2025 21:28:48.099] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[world]'/minecraft:the_end
+[12Apr2025 21:28:48.100] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[world]'/minecraft:the_nether
+[12Apr2025 21:28:48.153] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: ThreadedAnvilChunkStorage (world): All chunks are saved
+[12Apr2025 21:28:48.153] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: ThreadedAnvilChunkStorage (DIM1): All chunks are saved
+[12Apr2025 21:28:48.153] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: ThreadedAnvilChunkStorage (DIM-1): All chunks are saved
+[12Apr2025 21:28:48.153] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: ThreadedAnvilChunkStorage: All dimensions are saved
