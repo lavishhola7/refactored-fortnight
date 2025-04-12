@@ -1,526 +1,297 @@
-[12Apr2025 03:37:37.837] [main/INFO] [cpw.mods.modlauncher.Launcher/MODLAUNCHER]: ModLauncher running: args [--launchTarget, forgeserver, --fml.forgeVersion, 47.3.7, --fml.mcVersion, 1.20.1, --fml.forgeGroup, net.minecraftforge, --fml.mcpVersion, 20230612.114412, nogui]
-[12Apr2025 03:37:37.843] [main/INFO] [cpw.mods.modlauncher.Launcher/MODLAUNCHER]: ModLauncher 10.0.9+10.0.9+main.dcd20f30 starting: java version 17.0.14 by Ubuntu; OS Linux arch amd64 version 6.8.0-1021-azure
-[12Apr2025 03:37:38.376] [main/INFO] [net.minecraftforge.fml.loading.ImmediateWindowHandler/]: ImmediateWindowProvider not loading because launch target is forgeserver
-[12Apr2025 03:37:38.418] [main/INFO] [mixin/]: SpongePowered MIXIN Subsystem Version=0.8.5 Source=union:/workspaces/refactored-fortnight/servidor_minecraft/libraries/org/spongepowered/mixin/0.8.5/mixin-0.8.5.jar%2365!/ Service=ModLauncher Env=SERVER
-[12Apr2025 03:37:38.716] [main/WARN] [net.minecraftforge.fml.loading.moddiscovery.ModFileParser/LOADING]: Mod file /workspaces/refactored-fortnight/servidor_minecraft/libraries/net/minecraftforge/fmlcore/1.20.1-47.3.7/fmlcore-1.20.1-47.3.7.jar is missing mods.toml file
-[12Apr2025 03:37:38.717] [main/WARN] [net.minecraftforge.fml.loading.moddiscovery.ModFileParser/LOADING]: Mod file /workspaces/refactored-fortnight/servidor_minecraft/libraries/net/minecraftforge/javafmllanguage/1.20.1-47.3.7/javafmllanguage-1.20.1-47.3.7.jar is missing mods.toml file
-[12Apr2025 03:37:38.718] [main/WARN] [net.minecraftforge.fml.loading.moddiscovery.ModFileParser/LOADING]: Mod file /workspaces/refactored-fortnight/servidor_minecraft/libraries/net/minecraftforge/lowcodelanguage/1.20.1-47.3.7/lowcodelanguage-1.20.1-47.3.7.jar is missing mods.toml file
-[12Apr2025 03:37:38.719] [main/WARN] [net.minecraftforge.fml.loading.moddiscovery.ModFileParser/LOADING]: Mod file /workspaces/refactored-fortnight/servidor_minecraft/libraries/net/minecraftforge/mclanguage/1.20.1-47.3.7/mclanguage-1.20.1-47.3.7.jar is missing mods.toml file
-[12Apr2025 03:37:38.906] [main/INFO] [net.minecraftforge.fml.loading.moddiscovery.JarInJarDependencyLocator/]: Found 3 dependencies adding them to mods collection
-[12Apr2025 03:37:41.501] [main/INFO] [mixin/]: Compatibility level set to JAVA_17
-[12Apr2025 03:37:41.635] [main/INFO] [cpw.mods.modlauncher.LaunchServiceHandler/MODLAUNCHER]: Launching target 'forgeserver' with arguments [nogui]
-[12Apr2025 03:37:41.720] [main/WARN] [mixin/]: Reference map 'immersive_paintings-common-refmap.json' for immersive_paintings.mixin.json could not be read. If this is a development environment you can ignore this message
-[12Apr2025 03:37:41.880] [main/INFO] [Embeddium/]: Loaded configuration file for Embeddium: 81 options available, 0 override(s) found
-[12Apr2025 03:37:43.767] [main/INFO] [MixinExtras|Service/]: Initializing MixinExtras via com.llamalad7.mixinextras.service.MixinExtrasServiceImpl(version=0.4.1).
-[12Apr2025 03:37:49.444] [main/WARN] [mixin/]: Mixin alexscaves.mixins.json:SwampHutPieceMixin has multiple constructors, (Lnet/minecraft/world/level/levelgen/structure/pieces/StructurePieceType;IIIIIILnet/minecraft/core/Direction;)V was selected
+[12Apr2025 20:59:55.714] [main/INFO] [cpw.mods.modlauncher.Launcher/MODLAUNCHER]: ModLauncher running: args [--launchTarget, forgeserver, --fml.forgeVersion, 47.3.7, --fml.mcVersion, 1.20.1, --fml.forgeGroup, net.minecraftforge, --fml.mcpVersion, 20230612.114412, nogui]
+[12Apr2025 20:59:55.718] [main/INFO] [cpw.mods.modlauncher.Launcher/MODLAUNCHER]: ModLauncher 10.0.9+10.0.9+main.dcd20f30 starting: java version 17.0.14 by Ubuntu; OS Linux arch amd64 version 6.8.0-1021-azure
+[12Apr2025 20:59:57.228] [main/INFO] [net.minecraftforge.fml.loading.ImmediateWindowHandler/]: ImmediateWindowProvider not loading because launch target is forgeserver
+[12Apr2025 20:59:57.318] [main/INFO] [mixin/]: SpongePowered MIXIN Subsystem Version=0.8.5 Source=union:/workspaces/refactored-fortnight/servidor_minecraft/libraries/org/spongepowered/mixin/0.8.5/mixin-0.8.5.jar%2365!/ Service=ModLauncher Env=SERVER
+[12Apr2025 20:59:57.630] [main/WARN] [net.minecraftforge.fml.loading.moddiscovery.ModFileParser/LOADING]: Mod file /workspaces/refactored-fortnight/servidor_minecraft/libraries/net/minecraftforge/fmlcore/1.20.1-47.3.7/fmlcore-1.20.1-47.3.7.jar is missing mods.toml file
+[12Apr2025 20:59:57.632] [main/WARN] [net.minecraftforge.fml.loading.moddiscovery.ModFileParser/LOADING]: Mod file /workspaces/refactored-fortnight/servidor_minecraft/libraries/net/minecraftforge/javafmllanguage/1.20.1-47.3.7/javafmllanguage-1.20.1-47.3.7.jar is missing mods.toml file
+[12Apr2025 20:59:57.633] [main/WARN] [net.minecraftforge.fml.loading.moddiscovery.ModFileParser/LOADING]: Mod file /workspaces/refactored-fortnight/servidor_minecraft/libraries/net/minecraftforge/lowcodelanguage/1.20.1-47.3.7/lowcodelanguage-1.20.1-47.3.7.jar is missing mods.toml file
+[12Apr2025 20:59:57.635] [main/WARN] [net.minecraftforge.fml.loading.moddiscovery.ModFileParser/LOADING]: Mod file /workspaces/refactored-fortnight/servidor_minecraft/libraries/net/minecraftforge/mclanguage/1.20.1-47.3.7/mclanguage-1.20.1-47.3.7.jar is missing mods.toml file
+[12Apr2025 20:59:57.838] [main/INFO] [net.minecraftforge.fml.loading.moddiscovery.JarInJarDependencyLocator/]: Found 3 dependencies adding them to mods collection
+[12Apr2025 20:59:59.742] [main/INFO] [mixin/]: Compatibility level set to JAVA_17
+[12Apr2025 20:59:59.810] [main/INFO] [cpw.mods.modlauncher.LaunchServiceHandler/MODLAUNCHER]: Launching target 'forgeserver' with arguments [nogui]
+[12Apr2025 20:59:59.876] [main/WARN] [mixin/]: Reference map 'immersive_paintings-common-refmap.json' for immersive_paintings.mixin.json could not be read. If this is a development environment you can ignore this message
+[12Apr2025 20:59:59.986] [main/INFO] [Embeddium/]: Loaded configuration file for Embeddium: 76 options available, 0 override(s) found
+[12Apr2025 21:00:01.580] [main/INFO] [MixinExtras|Service/]: Initializing MixinExtras via com.llamalad7.mixinextras.service.MixinExtrasServiceImpl(version=0.4.1).
+[12Apr2025 21:00:08.370] [main/WARN] [mixin/]: Mixin alexscaves.mixins.json:SwampHutPieceMixin has multiple constructors, (Lnet/minecraft/world/level/levelgen/structure/pieces/StructurePieceType;IIIIIILnet/minecraft/core/Direction;)V was selected
 
-[12Apr2025 03:37:50.720] [modloading-worker-0/INFO] [dev.architectury.networking.forge.NetworkManagerImpl/]: Registering C2S receiver with id architectury:sync_ids
-[12Apr2025 03:37:50.723] [modloading-worker-0/INFO] [dev.architectury.networking.forge.NetworkManagerImpl/]: Registering C2S receiver with id artifacts:networking_channel/42a7ad70b1cc371599a0eff744096b8a
-[12Apr2025 03:37:50.726] [modloading-worker-0/INFO] [dev.architectury.networking.forge.NetworkManagerImpl/]: Registering C2S receiver with id artifacts:networking_channel/74a5e841822a3a87854ae896a33430d6
-[12Apr2025 03:37:50.731] [modloading-worker-0/INFO] [dev.architectury.networking.forge.NetworkManagerImpl/]: Registering C2S receiver with id artifacts:networking_channel/eb3d1e2748533430848cadf0f37c7e9c
-[12Apr2025 03:37:50.733] [modloading-worker-0/INFO] [dev.architectury.networking.forge.NetworkManagerImpl/]: Registering C2S receiver with id artifacts:networking_channel/91c8520f19f93b3e8b6a727568e194ab
-[12Apr2025 03:37:50.736] [modloading-worker-0/INFO] [dev.architectury.networking.forge.NetworkManagerImpl/]: Registering C2S receiver with id artifacts:networking_channel/8c2784d778293fd482ed84b8aa5fedb9
-[12Apr2025 03:37:50.741] [modloading-worker-0/INFO] [dev.architectury.networking.forge.NetworkManagerImpl/]: Registering C2S receiver with id artifacts:networking_channel/ea038224ea783d40b2863f52239e2604
-[12Apr2025 03:37:50.742] [modloading-worker-0/INFO] [dev.architectury.networking.forge.NetworkManagerImpl/]: Registering C2S receiver with id artifacts:networking_channel/97ad64b7ecaf33209991c4f031501a58
-[12Apr2025 03:37:51.414] [modloading-worker-0/INFO] [be.florens.expandability.ExpandAbility/]: ExpandAbility here, who dis?
-[12Apr2025 03:37:51.430] [modloading-worker-0/INFO] [net.minecraftforge.common.ForgeMod/FORGEMOD]: Forge mod loading, version 47.3.7, for MC 1.20.1 with MCP 20230612.114412
-[12Apr2025 03:37:51.431] [modloading-worker-0/INFO] [net.minecraftforge.common.MinecraftForge/FORGE]: MinecraftForge v47.3.7 Initialized
-[12Apr2025 03:37:51.497] [modloading-worker-0/INFO] [End's Phantasm/]: Registering Sounds for mod id : phantasm
-[12Apr2025 03:37:51.498] [modloading-worker-0/INFO] [End's Phantasm/]: Loading Configs for Phantasm
-[12Apr2025 03:37:57.500] [main/WARN] [net.minecraft.network.syncher.SynchedEntityData/]: defineId called for: class com.github.alexmodguy.alexscaves.server.entity.living.TremorzillaEntity from class com.github.alexmodguy.alexscaves.server.entity.living.LicowitchEntity
-[12Apr2025 03:37:57.850] [modloading-worker-0/INFO] [voicechat/]: [voicechat] Compatibility version 18
-[12Apr2025 03:37:57.871] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [securitycraft] Starting version check at https://www.github.com/Geforce132/SecurityCraft/raw/master/Updates/Forge.json
-[12Apr2025 03:37:57.957] [modloading-worker-0/INFO] [voicechat/]: [voicechat] Loading plugins
-[12Apr2025 03:37:57.973] [modloading-worker-0/INFO] [voicechat/]: [voicechat] Loaded 0 plugin(s)
-[12Apr2025 03:37:57.974] [modloading-worker-0/INFO] [voicechat/]: [voicechat] Initializing plugins
-[12Apr2025 03:37:57.974] [modloading-worker-0/INFO] [voicechat/]: [voicechat] Initialized 0 plugin(s)
-[12Apr2025 03:37:58.079] [main/INFO] [de.teamlapen.vampirism.core.ModEffects/]: Fixing vanilla night vision potion types
-[12Apr2025 03:37:58.099] [modloading-worker-0/INFO] [xaero.minimap.XaeroMinimap/]: Loading Xaero's Minimap - Stage 1/2 (Server)
-[12Apr2025 03:37:58.099] [modloading-worker-0/INFO] [xaero.map.server.WorldMapServer/]: Loading Xaero's World Map - Stage 1/2 (Server)
-[12Apr2025 03:37:58.102] [main/INFO] [xaero.map.server.WorldMapServer/]: Loading Xaero's World Map - Stage 2/2 (Server)
-[12Apr2025 03:37:58.102] [main/INFO] [xaero.minimap.XaeroMinimap/]: Loading Xaero's Minimap - Stage 2/2 (Server)
-[12Apr2025 03:37:58.189] [modloading-worker-0/INFO] [Jade/]: Start loading plugin at snownee.jade.addon.vanilla.VanillaPlugin
-[12Apr2025 03:37:58.208] [modloading-worker-0/INFO] [Jade/]: Start loading plugin at snownee.jade.addon.universal.UniversalPlugin
-[12Apr2025 03:37:58.212] [modloading-worker-0/INFO] [Jade/]: Start loading plugin at snownee.jade.addon.core.CorePlugin
-[12Apr2025 03:37:58.214] [modloading-worker-0/INFO] [Jade/]: Start loading plugin at net.geforcemods.securitycraft.compat.hudmods.JadeDataProvider
-[12Apr2025 03:37:58.216] [modloading-worker-0/INFO] [Jade/]: Start loading plugin at de.maxhenkel.corpse.integration.waila.PluginCorpse
-[12Apr2025 03:37:58.234] [main/INFO] [de.teamlapen.vampirism.core.ModEffects/]: Fixing vanilla night vision potion types
-[12Apr2025 03:37:58.396] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [securitycraft] Found status: UP_TO_DATE Current: 1.9.12 Target: null
-[12Apr2025 03:37:58.400] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [vampirism] Starting version check at https://api.modrinth.com/updates/vampirism/forge_updates.json
-[12Apr2025 03:37:58.614] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [vampirism] Found status: UP_TO_DATE Current: 1.10.13 Target: null
-[12Apr2025 03:37:58.614] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [voicechat] Starting version check at https://update.maxhenkel.de/forge/voicechat
-[12Apr2025 03:37:59.243] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [voicechat] Found status: AHEAD Current: 1.20.1-2.5.29 Target: null
-[12Apr2025 03:37:59.244] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [forge] Starting version check at https://files.minecraftforge.net/net/minecraftforge/forge/promotions_slim.json
-[12Apr2025 03:37:59.421] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [forge] Found status: OUTDATED Current: 47.3.7 Target: 47.4.0
-[12Apr2025 03:37:59.421] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [corpse] Starting version check at https://update.maxhenkel.de/forge/corpse
-[12Apr2025 03:37:59.571] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [corpse] Found status: AHEAD Current: 1.20.1-1.0.20 Target: null
-[12Apr2025 03:38:00.717] [main/INFO] [com.mojang.authlib.yggdrasil.YggdrasilAuthenticationService/]: Environment: authHost='https://authserver.mojang.com', accountsHost='https://api.mojang.com', sessionHost='https://sessionserver.mojang.com', servicesHost='https://api.minecraftservices.com', name='PROD'
-[12Apr2025 03:38:02.642] [main/WARN] [net.minecraft.server.packs.VanillaPackResourcesBuilder/]: Assets URL 'union:/workspaces/refactored-fortnight/servidor_minecraft/libraries/net/minecraft/server/1.20.1-20230612.114412/server-1.20.1-20230612.114412-srg.jar%23163!/assets/.mcassetsroot' uses unexpected schema
-[12Apr2025 03:38:02.643] [main/WARN] [net.minecraft.server.packs.VanillaPackResourcesBuilder/]: Assets URL 'union:/workspaces/refactored-fortnight/servidor_minecraft/libraries/net/minecraft/server/1.20.1-20230612.114412/server-1.20.1-20230612.114412-srg.jar%23163!/data/.mcassetsroot' uses unexpected schema
-[12Apr2025 03:38:03.788] [main/INFO] [de.teamlapen.vampirism.world.biome.OverworldModifications/]: Adding biome vampirism:vampire_forest to ParameterPoints [ParameterPoint[temperature=[-4000--1900], humidity=[1000-3000], continentalness=[-1100-5500], erosion=[-3750--2225], depth=0, weirdness=[-5666--500], offset=0], ParameterPoint[temperature=[-4000--1900], humidity=[1000-3000], continentalness=[-1100-5500], erosion=[-3750--2225], depth=0, weirdness=[500-4000], offset=0]] in Preset.OVERWORLD
-[12Apr2025 03:38:04.531] [main/INFO] [com.github.alexthe666.alexsmobs.AlexsMobs/]: Adding datapack listener capsid_recipes
-[12Apr2025 03:38:05.472] [main/WARN] [net.minecraft.world.level.storage.loot.LootDataManager/]: Found loot table element validation problem in {loot_tables:phantasm:blocks/acidic_nihilium}.pools[0].entries[0].entry[1]: Empty children list
-[12Apr2025 03:38:05.473] [main/WARN] [net.minecraft.world.level.storage.loot.LootDataManager/]: Found loot table element validation problem in {loot_tables:phantasm:blocks/vivid_nihilium}.pools[0].entries[0].entry[1]: Empty children list
-[12Apr2025 03:38:05.474] [main/WARN] [net.minecraft.world.level.storage.loot.LootDataManager/]: Found loot table element validation problem in {loot_tables:phantasm:blocks/hanging_pream_leaves}.pools[0].entries[0].entry[1]: Empty children list
-[12Apr2025 03:38:05.474] [main/WARN] [net.minecraft.world.level.storage.loot.LootDataManager/]: Found loot table element validation problem in {loot_tables:phantasm:blocks/pome}.pools[0].entries[0].entry[1]: Empty children list
-[12Apr2025 03:38:05.474] [main/WARN] [net.minecraft.world.level.storage.loot.LootDataManager/]: Found loot table element validation problem in {loot_tables:phantasm:blocks/cirite_iron_ore}.pools[0].entries[0].entry[1]: Empty children list
-[12Apr2025 03:38:05.529] [main/INFO] [net.minecraft.world.item.crafting.RecipeManager/]: Skipping loading recipe vampirism:general/umbrella as it's serializer returned null
-[12Apr2025 03:38:05.621] [main/INFO] [net.minecraft.world.item.crafting.RecipeManager/]: Skipping loading recipe vampirism:vampire/blood_bottle as it's serializer returned null
-[12Apr2025 03:38:05.641] [Thread-3/WARN] [net.minecraftforge.fml.config.ConfigFileTypeHandler/CONFIG]: Configuration file /workspaces/refactored-fortnight/servidor_minecraft/config/sophisticatedcore-common.toml is not correct. Correcting
-[12Apr2025 03:38:05.695] [main/INFO] [net.minecraft.world.item.crafting.RecipeManager/]: Skipping loading recipe vampirism:general/guidebook as it's serializer returned null
-[12Apr2025 03:38:05.708] [main/INFO] [net.minecraft.world.item.crafting.RecipeManager/]: Loaded 12 recipes
-[12Apr2025 03:38:05.897] [main/INFO] [net.minecraft.advancements.AdvancementList/]: Loaded 3265 advancements
-[12Apr2025 03:38:05.907] [main/INFO] [top.theillusivec4.curios.Curios/]: Loaded 11 curio slots
-[12Apr2025 03:38:05.913] [main/INFO] [top.theillusivec4.curios.Curios/]: Loaded 11 curio entities
-[12Apr2025 03:38:05.917] [main/INFO] [de.teamlapen.vampirism.entity.player.skills.SkillTree/]: Loaded 53 skill nodes
-[12Apr2025 03:38:05.922] [main/INFO] [de.teamlapen.vampirism.entity.converted.VampirismEntityRegistry/]: Registered 14 convertibles
-[12Apr2025 03:38:07.622] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Starting minecraft server version 1.20.1
-[12Apr2025 03:38:07.623] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Loading properties
-[12Apr2025 03:38:07.623] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Default game type: SURVIVAL
-[12Apr2025 03:38:07.623] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Generating keypair
-[12Apr2025 03:38:07.711] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Starting Minecraft server on *:25565
-[12Apr2025 03:38:07.753] [Server thread/INFO] [net.minecraft.server.network.ServerConnectionListener/]: Using epoll channel type
-[12Apr2025 03:38:07.827] [Server thread/WARN] [net.minecraft.server.dedicated.DedicatedServer/]: **** SERVER IS RUNNING IN OFFLINE/INSECURE MODE!
-[12Apr2025 03:38:07.828] [Server thread/WARN] [net.minecraft.server.dedicated.DedicatedServer/]: The server will make no attempt to authenticate usernames. Beware.
-[12Apr2025 03:38:07.828] [Server thread/WARN] [net.minecraft.server.dedicated.DedicatedServer/]: While this makes the game possible to play without internet access, it also opens up the ability for hackers to connect with any username they choose.
-[12Apr2025 03:38:07.828] [Server thread/WARN] [net.minecraft.server.dedicated.DedicatedServer/]: To change this, set "online-mode" to "true" in the server.properties file.
-[12Apr2025 03:38:08.131] [Server thread/INFO] [net.jadenxgamer.elysium_api.Elysium/]: ElysiumBiomeSource successfully initialized for minecraft:the_nether
-[12Apr2025 03:38:08.133] [Server thread/INFO] [net.jadenxgamer.elysium_api.Elysium/]: ElysiumBiomeSource successfully initialized for minecraft:overworld
-[12Apr2025 03:38:08.135] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Preparing level "world"
-[12Apr2025 03:38:08.474] [Server thread/INFO] [de.teamlapen.vampirism.GeneralEventHandler/]: Replacing DistanceManager.chunksToUpdateFutures for level ResourceKey[minecraft:dimension / minecraft:overworld] with concurrent set.
-[12Apr2025 03:38:19.253] [Server thread/INFO] [de.teamlapen.vampirism.GeneralEventHandler/]: Replacing DistanceManager.chunksToUpdateFutures for level ResourceKey[minecraft:dimension / minecraft:the_end] with concurrent set.
-[12Apr2025 03:38:19.264] [Server thread/INFO] [de.teamlapen.vampirism.GeneralEventHandler/]: Replacing DistanceManager.chunksToUpdateFutures for level ResourceKey[minecraft:dimension / minecraft:the_nether] with concurrent set.
-[12Apr2025 03:38:19.273] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Preparing start region for dimension minecraft:overworld
-[12Apr2025 03:38:24.037] [Worker-Main-5/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
-[12Apr2025 03:38:24.040] [Worker-Main-5/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
-[12Apr2025 03:38:24.041] [Worker-Main-5/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
-[12Apr2025 03:38:24.044] [Worker-Main-5/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
-[12Apr2025 03:38:24.046] [Worker-Main-4/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
-[12Apr2025 03:38:24.047] [Worker-Main-5/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
-[12Apr2025 03:38:24.048] [Worker-Main-5/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
-[12Apr2025 03:38:24.048] [Worker-Main-4/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
-[12Apr2025 03:38:24.049] [Worker-Main-4/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
-[12Apr2025 03:38:24.050] [Worker-Main-3/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
-[12Apr2025 03:38:24.275] [Worker-Main-5/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
-[12Apr2025 03:38:24.775] [Worker-Main-5/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 43%
-[12Apr2025 03:38:25.153] [Server thread/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Time elapsed: 5879 ms
-[12Apr2025 03:38:25.154] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Done (17.313s)! For help, type "help"
-[12Apr2025 03:38:25.192] [Server thread/INFO] [net.minecraftforge.server.permission.PermissionAPI/]: Successfully initialized permission handler forge:default_handler
-[12Apr2025 03:38:25.197] [Server thread/WARN] [voicechat/]: [voicechat] Running in offline mode - Voice chat encryption is not secure!
-[12Apr2025 03:38:25.205] [VoiceChatServerThread/INFO] [voicechat/]: [voicechat] Voice chat server started at port 24454
-[12Apr2025 03:38:46.679] [Server thread/INFO] [net.minecraft.server.players.PlayerList/]: Agus2000[/100.99.96.52:56695] logged in with entity id 194 at (-127.05732468918193, 66.55890553468969, 271.2361845542308)
-[12Apr2025 03:38:46.779] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Agus2000 joined the game
-[12Apr2025 03:38:46.953] [Server thread/INFO] [Jade/]: Syncing config to Agus2000 (c9beb890-2671-3838-a808-2f68a93b3ca2)
-[12Apr2025 03:38:47.188] [Server thread/INFO] [voicechat/]: [voicechat] Received secret request of Agus2000 (18)
-[12Apr2025 03:38:47.191] [Server thread/INFO] [voicechat/]: [voicechat] Sent secret to Agus2000
-[12Apr2025 03:38:49.660] [VoiceChatPacketProcessingThread/INFO] [voicechat/]: [voicechat] Successfully authenticated player c9beb890-2671-3838-a808-2f68a93b3ca2
-[12Apr2025 03:38:50.657] [VoiceChatPacketProcessingThread/INFO] [voicechat/]: [voicechat] Successfully validated connection of player c9beb890-2671-3838-a808-2f68a93b3ca2
-[12Apr2025 03:38:50.662] [VoiceChatPacketProcessingThread/INFO] [voicechat/]: [voicechat] Player Agus2000 (c9beb890-2671-3838-a808-2f68a93b3ca2) successfully connected to voice chat
-[12Apr2025 03:39:19.326] [Server thread/INFO] [net.minecraft.server.players.PlayerList/]: maxiluxmaxxing[/100.102.81.69:58718] logged in with entity id 319 at (-130.97153521315903, 64.0, 266.71677084714423)
-[12Apr2025 03:39:19.336] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: maxiluxmaxxing joined the game
-[12Apr2025 03:39:19.379] [Server thread/INFO] [Jade/]: Syncing config to maxiluxmaxxing (323edfcc-57b8-34a2-a801-88080d716c6a)
-[12Apr2025 03:39:20.197] [Server thread/INFO] [voicechat/]: [voicechat] Received secret request of maxiluxmaxxing (18)
-[12Apr2025 03:39:20.198] [Server thread/INFO] [voicechat/]: [voicechat] Sent secret to maxiluxmaxxing
-[12Apr2025 03:39:23.495] [VoiceChatPacketProcessingThread/INFO] [voicechat/]: [voicechat] Successfully authenticated player 323edfcc-57b8-34a2-a801-88080d716c6a
-[12Apr2025 03:39:24.498] [VoiceChatPacketProcessingThread/INFO] [voicechat/]: [voicechat] Successfully validated connection of player 323edfcc-57b8-34a2-a801-88080d716c6a
-[12Apr2025 03:39:24.498] [VoiceChatPacketProcessingThread/INFO] [voicechat/]: [voicechat] Player maxiluxmaxxing (323edfcc-57b8-34a2-a801-88080d716c6a) successfully connected to voice chat
-[12Apr2025 03:39:28.461] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Agus2000: Made maxiluxmaxxing a server operator]
-[12Apr2025 03:40:34.391] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: maxiluxmaxxing has made the advancement [Ice Bucket Challenge]
-[12Apr2025 03:40:45.063] [Server thread/INFO] [net.minecraft.server.network.ServerLoginPacketListenerImpl/]: com.mojang.authlib.GameProfile@2f99281e[id=<null>,name=Ostera,properties={},legacy=false] (/100.80.244.12:60763) lost connection: Disconnected
-[12Apr2025 03:41:12.812] [Server thread/INFO] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Agus2000 lost connection: Disconnected
-[12Apr2025 03:41:12.812] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Agus2000 left the game
-[12Apr2025 03:41:12.815] [Server thread/INFO] [voicechat/]: [voicechat] Disconnecting client Agus2000
-[12Apr2025 03:42:16.671] [Server thread/INFO] [net.minecraft.server.players.PlayerList/]: Agus2000[/100.99.96.52:56941] logged in with entity id 1191 at (-141.22394338894924, 64.0, 265.78013071466233)
-[12Apr2025 03:42:16.689] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Agus2000 joined the game
-[12Apr2025 03:42:16.728] [Server thread/INFO] [Jade/]: Syncing config to Agus2000 (c9beb890-2671-3838-a808-2f68a93b3ca2)
-[12Apr2025 03:42:17.380] [Server thread/INFO] [voicechat/]: [voicechat] Received secret request of Agus2000 (18)
-[12Apr2025 03:42:17.381] [Server thread/INFO] [voicechat/]: [voicechat] Sent secret to Agus2000
-[12Apr2025 03:42:20.836] [VoiceChatPacketProcessingThread/INFO] [voicechat/]: [voicechat] Successfully authenticated player c9beb890-2671-3838-a808-2f68a93b3ca2
-[12Apr2025 03:42:21.840] [VoiceChatPacketProcessingThread/INFO] [voicechat/]: [voicechat] Successfully validated connection of player c9beb890-2671-3838-a808-2f68a93b3ca2
-[12Apr2025 03:42:21.841] [VoiceChatPacketProcessingThread/INFO] [voicechat/]: [voicechat] Player Agus2000 (c9beb890-2671-3838-a808-2f68a93b3ca2) successfully connected to voice chat
-[12Apr2025 03:44:51.566] [Server thread/INFO] [net.minecraft.server.players.PlayerList/]: Ostera[/100.80.244.12:61041] logged in with entity id 1926 at (-233.5, 83.0, 185.5)
-[12Apr2025 03:44:51.573] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Ostera joined the game
-[12Apr2025 03:44:51.605] [Server thread/INFO] [Jade/]: Syncing config to Ostera (745233b0-54fc-3585-b02b-cc08bb97b580)
-[12Apr2025 03:44:52.463] [Server thread/INFO] [voicechat/]: [voicechat] Received secret request of Ostera (18)
-[12Apr2025 03:44:52.464] [Server thread/INFO] [voicechat/]: [voicechat] Sent secret to Ostera
-[12Apr2025 03:44:56.231] [VoiceChatPacketProcessingThread/INFO] [voicechat/]: [voicechat] Successfully authenticated player 745233b0-54fc-3585-b02b-cc08bb97b580
-[12Apr2025 03:44:57.235] [VoiceChatPacketProcessingThread/INFO] [voicechat/]: [voicechat] Successfully validated connection of player 745233b0-54fc-3585-b02b-cc08bb97b580
-[12Apr2025 03:44:57.236] [VoiceChatPacketProcessingThread/INFO] [voicechat/]: [voicechat] Player Ostera (745233b0-54fc-3585-b02b-cc08bb97b580) successfully connected to voice chat
-[12Apr2025 03:44:58.200] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Agus2000: Made Ostera a server operator]
-[12Apr2025 03:45:14.053] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Ostera: Teleported Ostera to maxiluxmaxxing]
-[12Apr2025 03:45:52.911] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Ostera has made the advancement [Alex's Mobs]
-[12Apr2025 03:46:03.844] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Ostera has made the advancement [Fetch Me Their Souls!]
-[12Apr2025 03:46:26.463] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Ostera: Set own game mode to Creative Mode]
-[12Apr2025 03:47:44.966] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Ostera has made the advancement [Stone Age]
-[12Apr2025 03:47:52.244] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Ostera has made the advancement [Monster Hunter]
-[12Apr2025 03:48:27.184] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [maxiluxmaxxing: Summoned new Chicken]
-[12Apr2025 03:48:35.836] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [maxiluxmaxxing: Summoned new Chicken]
-[12Apr2025 03:48:40.872] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Agus2000 has made the advancement [Fetch Me Their Souls!]
-[12Apr2025 03:49:17.550] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [maxiluxmaxxing: Summoned new Chicken]
-[12Apr2025 03:49:29.987] [Server thread/WARN] [de.teamlapen.vampirism.entity.ModEntityEventHandler/]: Could not modify villager zombie attack target task for translation{key='entity.minecraft.zombified_piglin', args=[]}
-[12Apr2025 03:49:38.225] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [maxiluxmaxxing: Summoned new Chicken]
-[12Apr2025 03:50:07.577] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [maxiluxmaxxing: Summoned new Chicken]
-[12Apr2025 03:50:11.164] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: maxiluxmaxxing has made the advancement [Stone Age]
-[12Apr2025 03:50:16.045] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: maxiluxmaxxing moved too quickly! -8.632721640117637,3.3749995765300866,-4.262364796785874
-[12Apr2025 03:50:25.351] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Ostera has made the advancement [Chompy]
-[12Apr2025 03:50:27.789] [Server thread/INFO] [net.minecraft.world.entity.LivingEntity/]: Named entity EntityCrocodile['bombardiro crocodilo'/141, l='ServerLevel[world]', x=-91.15, y=62.47, z=293.58] died: bombardiro crocodilo was slain by Ostera
-[12Apr2025 03:50:43.417] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Agus2000: Changed the block at -116, 79, 270]
-[12Apr2025 03:51:24.117] [Server thread/ERROR] [net.minecraft.Util/]: Invalid entity rotation: NaN, discarding.
-[12Apr2025 03:51:24.214] [Server thread/ERROR] [net.minecraft.Util/]: Invalid entity rotation: NaN, discarding.
-[12Apr2025 03:51:24.319] [Server thread/ERROR] [net.minecraft.Util/]: Invalid entity rotation: NaN, discarding.
-[12Apr2025 03:51:28.412] [Server thread/ERROR] [net.minecraft.Util/]: Invalid entity rotation: NaN, discarding.
-[12Apr2025 03:51:28.512] [Server thread/ERROR] [net.minecraft.Util/]: Invalid entity rotation: NaN, discarding.
-[12Apr2025 03:51:28.610] [Server thread/ERROR] [net.minecraft.Util/]: Invalid entity rotation: NaN, discarding.
-[12Apr2025 03:51:28.712] [Server thread/ERROR] [net.minecraft.Util/]: Invalid entity rotation: NaN, discarding.
-[12Apr2025 03:51:28.811] [Server thread/ERROR] [net.minecraft.Util/]: Invalid entity rotation: NaN, discarding.
-[12Apr2025 03:51:28.910] [Server thread/ERROR] [net.minecraft.Util/]: Invalid entity rotation: NaN, discarding.
-[12Apr2025 03:51:29.011] [Server thread/ERROR] [net.minecraft.Util/]: Invalid entity rotation: NaN, discarding.
-[12Apr2025 03:51:29.110] [Server thread/ERROR] [net.minecraft.Util/]: Invalid entity rotation: NaN, discarding.
-[12Apr2025 03:51:29.211] [Server thread/ERROR] [net.minecraft.Util/]: Invalid entity rotation: NaN, discarding.
-[12Apr2025 03:51:29.313] [Server thread/ERROR] [net.minecraft.Util/]: Invalid entity rotation: NaN, discarding.
-[12Apr2025 03:51:29.412] [Server thread/ERROR] [net.minecraft.Util/]: Invalid entity rotation: NaN, discarding.
-[12Apr2025 03:51:29.509] [Server thread/ERROR] [net.minecraft.Util/]: Invalid entity rotation: NaN, discarding.
-[12Apr2025 03:51:29.611] [Server thread/ERROR] [net.minecraft.Util/]: Invalid entity rotation: NaN, discarding.
-[12Apr2025 03:51:29.711] [Server thread/ERROR] [net.minecraft.Util/]: Invalid entity rotation: NaN, discarding.
-[12Apr2025 03:51:29.810] [Server thread/ERROR] [net.minecraft.Util/]: Invalid entity rotation: NaN, discarding.
-[12Apr2025 03:51:29.912] [Server thread/ERROR] [net.minecraft.Util/]: Invalid entity rotation: NaN, discarding.
-[12Apr2025 03:51:30.010] [Server thread/ERROR] [net.minecraft.Util/]: Invalid entity rotation: NaN, discarding.
-[12Apr2025 03:51:30.112] [Server thread/ERROR] [net.minecraft.Util/]: Invalid entity rotation: NaN, discarding.
-[12Apr2025 03:51:30.212] [Server thread/ERROR] [net.minecraft.Util/]: Invalid entity rotation: NaN, discarding.
-[12Apr2025 03:51:30.311] [Server thread/ERROR] [net.minecraft.Util/]: Invalid entity rotation: NaN, discarding.
-[12Apr2025 03:51:30.411] [Server thread/ERROR] [net.minecraft.Util/]: Invalid entity rotation: NaN, discarding.
-[12Apr2025 03:51:30.510] [Server thread/ERROR] [net.minecraft.Util/]: Invalid entity rotation: NaN, discarding.
-[12Apr2025 03:51:30.618] [Server thread/ERROR] [net.minecraft.Util/]: Invalid entity rotation: NaN, discarding.
-[12Apr2025 03:51:30.711] [Server thread/ERROR] [net.minecraft.Util/]: Invalid entity rotation: NaN, discarding.
-[12Apr2025 03:51:30.814] [Server thread/ERROR] [net.minecraft.Util/]: Invalid entity rotation: NaN, discarding.
-[12Apr2025 03:51:30.911] [Server thread/ERROR] [net.minecraft.Util/]: Invalid entity rotation: NaN, discarding.
-[12Apr2025 03:51:31.012] [Server thread/ERROR] [net.minecraft.Util/]: Invalid entity rotation: NaN, discarding.
-[12Apr2025 03:51:31.111] [Server thread/ERROR] [net.minecraft.Util/]: Invalid entity rotation: NaN, discarding.
-[12Apr2025 03:51:31.212] [Server thread/ERROR] [net.minecraft.Util/]: Invalid entity rotation: NaN, discarding.
-[12Apr2025 03:51:31.311] [Server thread/ERROR] [net.minecraft.Util/]: Invalid entity rotation: NaN, discarding.
-[12Apr2025 03:51:31.411] [Server thread/ERROR] [net.minecraft.Util/]: Invalid entity rotation: NaN, discarding.
-[12Apr2025 03:51:31.511] [Server thread/ERROR] [net.minecraft.Util/]: Invalid entity rotation: NaN, discarding.
-[12Apr2025 03:51:31.613] [Server thread/ERROR] [net.minecraft.Util/]: Invalid entity rotation: NaN, discarding.
-[12Apr2025 03:51:31.712] [Server thread/ERROR] [net.minecraft.Util/]: Invalid entity rotation: NaN, discarding.
-[12Apr2025 03:51:31.817] [Server thread/ERROR] [net.minecraft.Util/]: Invalid entity rotation: NaN, discarding.
-[12Apr2025 03:51:31.915] [Server thread/ERROR] [net.minecraft.Util/]: Invalid entity rotation: NaN, discarding.
-[12Apr2025 03:51:32.013] [Server thread/ERROR] [net.minecraft.Util/]: Invalid entity rotation: NaN, discarding.
-[12Apr2025 03:51:32.114] [Server thread/ERROR] [net.minecraft.Util/]: Invalid entity rotation: NaN, discarding.
-[12Apr2025 03:51:33.244] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Agus2000: Changed the block at -116, 79, 269]
-[12Apr2025 03:52:13.409] [Server thread/ERROR] [net.minecraft.Util/]: Invalid entity rotation: NaN, discarding.
-[12Apr2025 03:52:13.509] [Server thread/ERROR] [net.minecraft.Util/]: Invalid entity rotation: NaN, discarding.
-[12Apr2025 03:52:13.609] [Server thread/ERROR] [net.minecraft.Util/]: Invalid entity rotation: NaN, discarding.
-[12Apr2025 03:52:13.709] [Server thread/ERROR] [net.minecraft.Util/]: Invalid entity rotation: NaN, discarding.
-[12Apr2025 03:52:13.809] [Server thread/ERROR] [net.minecraft.Util/]: Invalid entity rotation: NaN, discarding.
-[12Apr2025 03:52:13.909] [Server thread/ERROR] [net.minecraft.Util/]: Invalid entity rotation: NaN, discarding.
-[12Apr2025 03:52:14.009] [Server thread/ERROR] [net.minecraft.Util/]: Invalid entity rotation: NaN, discarding.
-[12Apr2025 03:52:14.109] [Server thread/ERROR] [net.minecraft.Util/]: Invalid entity rotation: NaN, discarding.
-[12Apr2025 03:52:14.209] [Server thread/ERROR] [net.minecraft.Util/]: Invalid entity rotation: NaN, discarding.
-[12Apr2025 03:52:14.310] [Server thread/ERROR] [net.minecraft.Util/]: Invalid entity rotation: NaN, discarding.
-[12Apr2025 03:52:14.409] [Server thread/ERROR] [net.minecraft.Util/]: Invalid entity rotation: NaN, discarding.
-[12Apr2025 03:52:14.510] [Server thread/ERROR] [net.minecraft.Util/]: Invalid entity rotation: NaN, discarding.
-[12Apr2025 03:52:14.609] [Server thread/ERROR] [net.minecraft.Util/]: Invalid entity rotation: NaN, discarding.
-[12Apr2025 03:52:14.709] [Server thread/ERROR] [net.minecraft.Util/]: Invalid entity rotation: NaN, discarding.
-[12Apr2025 03:52:14.809] [Server thread/ERROR] [net.minecraft.Util/]: Invalid entity rotation: NaN, discarding.
-[12Apr2025 03:52:14.909] [Server thread/ERROR] [net.minecraft.Util/]: Invalid entity rotation: NaN, discarding.
-[12Apr2025 03:52:15.009] [Server thread/ERROR] [net.minecraft.Util/]: Invalid entity rotation: NaN, discarding.
-[12Apr2025 03:52:15.110] [Server thread/ERROR] [net.minecraft.Util/]: Invalid entity rotation: NaN, discarding.
-[12Apr2025 03:52:15.210] [Server thread/ERROR] [net.minecraft.Util/]: Invalid entity rotation: NaN, discarding.
-[12Apr2025 03:52:15.309] [Server thread/ERROR] [net.minecraft.Util/]: Invalid entity rotation: NaN, discarding.
-[12Apr2025 03:52:15.409] [Server thread/ERROR] [net.minecraft.Util/]: Invalid entity rotation: NaN, discarding.
-[12Apr2025 03:52:15.509] [Server thread/ERROR] [net.minecraft.Util/]: Invalid entity rotation: NaN, discarding.
-[12Apr2025 03:52:15.609] [Server thread/ERROR] [net.minecraft.Util/]: Invalid entity rotation: NaN, discarding.
-[12Apr2025 03:52:15.708] [Server thread/ERROR] [net.minecraft.Util/]: Invalid entity rotation: NaN, discarding.
-[12Apr2025 03:52:15.810] [Server thread/ERROR] [net.minecraft.Util/]: Invalid entity rotation: NaN, discarding.
-[12Apr2025 03:52:15.909] [Server thread/ERROR] [net.minecraft.Util/]: Invalid entity rotation: NaN, discarding.
-[12Apr2025 03:52:16.010] [Server thread/ERROR] [net.minecraft.Util/]: Invalid entity rotation: NaN, discarding.
-[12Apr2025 03:52:16.110] [Server thread/ERROR] [net.minecraft.Util/]: Invalid entity rotation: NaN, discarding.
-[12Apr2025 03:52:16.209] [Server thread/ERROR] [net.minecraft.Util/]: Invalid entity rotation: NaN, discarding.
-[12Apr2025 03:52:16.309] [Server thread/ERROR] [net.minecraft.Util/]: Invalid entity rotation: NaN, discarding.
-[12Apr2025 03:52:16.409] [Server thread/ERROR] [net.minecraft.Util/]: Invalid entity rotation: NaN, discarding.
-[12Apr2025 03:52:16.509] [Server thread/ERROR] [net.minecraft.Util/]: Invalid entity rotation: NaN, discarding.
-[12Apr2025 03:52:16.609] [Server thread/ERROR] [net.minecraft.Util/]: Invalid entity rotation: NaN, discarding.
-[12Apr2025 03:52:16.708] [Server thread/ERROR] [net.minecraft.Util/]: Invalid entity rotation: NaN, discarding.
-[12Apr2025 03:52:16.809] [Server thread/ERROR] [net.minecraft.Util/]: Invalid entity rotation: NaN, discarding.
-[12Apr2025 03:52:16.908] [Server thread/ERROR] [net.minecraft.Util/]: Invalid entity rotation: NaN, discarding.
-[12Apr2025 03:52:17.009] [Server thread/ERROR] [net.minecraft.Util/]: Invalid entity rotation: NaN, discarding.
-[12Apr2025 03:52:17.109] [Server thread/ERROR] [net.minecraft.Util/]: Invalid entity rotation: NaN, discarding.
-[12Apr2025 03:52:17.210] [Server thread/ERROR] [net.minecraft.Util/]: Invalid entity rotation: NaN, discarding.
-[12Apr2025 03:52:17.309] [Server thread/ERROR] [net.minecraft.Util/]: Invalid entity rotation: NaN, discarding.
-[12Apr2025 03:52:17.411] [Server thread/ERROR] [net.minecraft.Util/]: Invalid entity rotation: NaN, discarding.
-[12Apr2025 03:52:17.516] [Server thread/ERROR] [net.minecraft.Util/]: Invalid entity rotation: NaN, discarding.
-[12Apr2025 03:52:17.609] [Server thread/ERROR] [net.minecraft.Util/]: Invalid entity rotation: NaN, discarding.
-[12Apr2025 03:52:17.709] [Server thread/ERROR] [net.minecraft.Util/]: Invalid entity rotation: NaN, discarding.
-[12Apr2025 03:52:17.810] [Server thread/ERROR] [net.minecraft.Util/]: Invalid entity rotation: NaN, discarding.
-[12Apr2025 03:52:17.909] [Server thread/ERROR] [net.minecraft.Util/]: Invalid entity rotation: NaN, discarding.
-[12Apr2025 03:52:18.010] [Server thread/ERROR] [net.minecraft.Util/]: Invalid entity rotation: NaN, discarding.
-[12Apr2025 03:52:18.110] [Server thread/ERROR] [net.minecraft.Util/]: Invalid entity rotation: NaN, discarding.
-[12Apr2025 03:52:18.210] [Server thread/ERROR] [net.minecraft.Util/]: Invalid entity rotation: NaN, discarding.
-[12Apr2025 03:52:18.309] [Server thread/ERROR] [net.minecraft.Util/]: Invalid entity rotation: NaN, discarding.
-[12Apr2025 03:52:18.409] [Server thread/ERROR] [net.minecraft.Util/]: Invalid entity rotation: NaN, discarding.
-[12Apr2025 03:52:18.509] [Server thread/ERROR] [net.minecraft.Util/]: Invalid entity rotation: NaN, discarding.
-[12Apr2025 03:52:18.609] [Server thread/ERROR] [net.minecraft.Util/]: Invalid entity rotation: NaN, discarding.
-[12Apr2025 03:52:18.708] [Server thread/ERROR] [net.minecraft.Util/]: Invalid entity rotation: NaN, discarding.
-[12Apr2025 03:52:18.810] [Server thread/ERROR] [net.minecraft.Util/]: Invalid entity rotation: NaN, discarding.
-[12Apr2025 03:52:18.909] [Server thread/ERROR] [net.minecraft.Util/]: Invalid entity rotation: NaN, discarding.
-[12Apr2025 03:52:19.009] [Server thread/ERROR] [net.minecraft.Util/]: Invalid entity rotation: NaN, discarding.
-[12Apr2025 03:52:19.109] [Server thread/ERROR] [net.minecraft.Util/]: Invalid entity rotation: NaN, discarding.
-[12Apr2025 03:52:19.209] [Server thread/ERROR] [net.minecraft.Util/]: Invalid entity rotation: NaN, discarding.
-[12Apr2025 03:52:19.312] [Server thread/ERROR] [net.minecraft.Util/]: Invalid entity rotation: NaN, discarding.
-[12Apr2025 03:52:19.410] [Server thread/ERROR] [net.minecraft.Util/]: Invalid entity rotation: NaN, discarding.
-[12Apr2025 03:52:19.510] [Server thread/ERROR] [net.minecraft.Util/]: Invalid entity rotation: NaN, discarding.
-[12Apr2025 03:52:19.609] [Server thread/ERROR] [net.minecraft.Util/]: Invalid entity rotation: NaN, discarding.
-[12Apr2025 03:52:19.709] [Server thread/ERROR] [net.minecraft.Util/]: Invalid entity rotation: NaN, discarding.
-[12Apr2025 03:52:19.809] [Server thread/ERROR] [net.minecraft.Util/]: Invalid entity rotation: NaN, discarding.
-[12Apr2025 03:52:19.908] [Server thread/ERROR] [net.minecraft.Util/]: Invalid entity rotation: NaN, discarding.
-[12Apr2025 03:52:20.009] [Server thread/ERROR] [net.minecraft.Util/]: Invalid entity rotation: NaN, discarding.
-[12Apr2025 03:52:20.110] [Server thread/ERROR] [net.minecraft.Util/]: Invalid entity rotation: NaN, discarding.
-[12Apr2025 03:52:20.209] [Server thread/ERROR] [net.minecraft.Util/]: Invalid entity rotation: NaN, discarding.
-[12Apr2025 03:52:20.309] [Server thread/ERROR] [net.minecraft.Util/]: Invalid entity rotation: NaN, discarding.
-[12Apr2025 03:52:20.409] [Server thread/ERROR] [net.minecraft.Util/]: Invalid entity rotation: NaN, discarding.
-[12Apr2025 03:52:20.510] [Server thread/ERROR] [net.minecraft.Util/]: Invalid entity rotation: NaN, discarding.
-[12Apr2025 03:52:20.609] [Server thread/ERROR] [net.minecraft.Util/]: Invalid entity rotation: NaN, discarding.
-[12Apr2025 03:52:20.709] [Server thread/ERROR] [net.minecraft.Util/]: Invalid entity rotation: NaN, discarding.
-[12Apr2025 03:52:20.809] [Server thread/ERROR] [net.minecraft.Util/]: Invalid entity rotation: NaN, discarding.
-[12Apr2025 03:52:20.909] [Server thread/ERROR] [net.minecraft.Util/]: Invalid entity rotation: NaN, discarding.
-[12Apr2025 03:52:21.009] [Server thread/ERROR] [net.minecraft.Util/]: Invalid entity rotation: NaN, discarding.
-[12Apr2025 03:52:21.109] [Server thread/ERROR] [net.minecraft.Util/]: Invalid entity rotation: NaN, discarding.
-[12Apr2025 03:52:21.210] [Server thread/ERROR] [net.minecraft.Util/]: Invalid entity rotation: NaN, discarding.
-[12Apr2025 03:52:21.309] [Server thread/ERROR] [net.minecraft.Util/]: Invalid entity rotation: NaN, discarding.
-[12Apr2025 03:52:21.409] [Server thread/ERROR] [net.minecraft.Util/]: Invalid entity rotation: NaN, discarding.
-[12Apr2025 03:52:21.511] [Server thread/ERROR] [net.minecraft.Util/]: Invalid entity rotation: NaN, discarding.
-[12Apr2025 03:52:21.609] [Server thread/ERROR] [net.minecraft.Util/]: Invalid entity rotation: NaN, discarding.
-[12Apr2025 03:52:21.709] [Server thread/ERROR] [net.minecraft.Util/]: Invalid entity rotation: NaN, discarding.
-[12Apr2025 03:52:21.809] [Server thread/ERROR] [net.minecraft.Util/]: Invalid entity rotation: NaN, discarding.
-[12Apr2025 03:52:21.909] [Server thread/ERROR] [net.minecraft.Util/]: Invalid entity rotation: NaN, discarding.
-[12Apr2025 03:52:22.009] [Server thread/ERROR] [net.minecraft.Util/]: Invalid entity rotation: NaN, discarding.
-[12Apr2025 03:52:22.109] [Server thread/ERROR] [net.minecraft.Util/]: Invalid entity rotation: NaN, discarding.
-[12Apr2025 03:52:22.209] [Server thread/ERROR] [net.minecraft.Util/]: Invalid entity rotation: NaN, discarding.
-[12Apr2025 03:52:22.309] [Server thread/ERROR] [net.minecraft.Util/]: Invalid entity rotation: NaN, discarding.
-[12Apr2025 03:52:22.409] [Server thread/ERROR] [net.minecraft.Util/]: Invalid entity rotation: NaN, discarding.
-[12Apr2025 03:52:22.510] [Server thread/ERROR] [net.minecraft.Util/]: Invalid entity rotation: NaN, discarding.
-[12Apr2025 03:52:22.609] [Server thread/ERROR] [net.minecraft.Util/]: Invalid entity rotation: NaN, discarding.
-[12Apr2025 03:52:22.709] [Server thread/ERROR] [net.minecraft.Util/]: Invalid entity rotation: NaN, discarding.
-[12Apr2025 03:52:22.809] [Server thread/ERROR] [net.minecraft.Util/]: Invalid entity rotation: NaN, discarding.
-[12Apr2025 03:52:22.910] [Server thread/ERROR] [net.minecraft.Util/]: Invalid entity rotation: NaN, discarding.
-[12Apr2025 03:52:23.013] [Server thread/ERROR] [net.minecraft.Util/]: Invalid entity rotation: NaN, discarding.
-[12Apr2025 03:52:23.111] [Server thread/ERROR] [net.minecraft.Util/]: Invalid entity rotation: NaN, discarding.
-[12Apr2025 03:52:23.210] [Server thread/ERROR] [net.minecraft.Util/]: Invalid entity rotation: NaN, discarding.
-[12Apr2025 03:52:23.310] [Server thread/ERROR] [net.minecraft.Util/]: Invalid entity rotation: NaN, discarding.
-[12Apr2025 03:52:23.410] [Server thread/ERROR] [net.minecraft.Util/]: Invalid entity rotation: NaN, discarding.
-[12Apr2025 03:52:23.509] [Server thread/ERROR] [net.minecraft.Util/]: Invalid entity rotation: NaN, discarding.
-[12Apr2025 03:52:23.608] [Server thread/ERROR] [net.minecraft.Util/]: Invalid entity rotation: NaN, discarding.
-[12Apr2025 03:52:23.710] [Server thread/ERROR] [net.minecraft.Util/]: Invalid entity rotation: NaN, discarding.
-[12Apr2025 03:52:23.808] [Server thread/ERROR] [net.minecraft.Util/]: Invalid entity rotation: NaN, discarding.
-[12Apr2025 03:52:23.910] [Server thread/ERROR] [net.minecraft.Util/]: Invalid entity rotation: NaN, discarding.
-[12Apr2025 03:52:24.010] [Server thread/ERROR] [net.minecraft.Util/]: Invalid entity rotation: NaN, discarding.
-[12Apr2025 03:52:24.110] [Server thread/ERROR] [net.minecraft.Util/]: Invalid entity rotation: NaN, discarding.
-[12Apr2025 03:52:24.210] [Server thread/ERROR] [net.minecraft.Util/]: Invalid entity rotation: NaN, discarding.
-[12Apr2025 03:52:24.309] [Server thread/ERROR] [net.minecraft.Util/]: Invalid entity rotation: NaN, discarding.
-[12Apr2025 03:52:24.409] [Server thread/ERROR] [net.minecraft.Util/]: Invalid entity rotation: NaN, discarding.
-[12Apr2025 03:52:24.511] [Server thread/ERROR] [net.minecraft.Util/]: Invalid entity rotation: NaN, discarding.
-[12Apr2025 03:52:24.609] [Server thread/ERROR] [net.minecraft.Util/]: Invalid entity rotation: NaN, discarding.
-[12Apr2025 03:52:24.710] [Server thread/ERROR] [net.minecraft.Util/]: Invalid entity rotation: NaN, discarding.
-[12Apr2025 03:52:24.811] [Server thread/ERROR] [net.minecraft.Util/]: Invalid entity rotation: NaN, discarding.
-[12Apr2025 03:52:24.909] [Server thread/ERROR] [net.minecraft.Util/]: Invalid entity rotation: NaN, discarding.
-[12Apr2025 03:52:25.010] [Server thread/ERROR] [net.minecraft.Util/]: Invalid entity rotation: NaN, discarding.
-[12Apr2025 03:52:25.125] [Server thread/ERROR] [net.minecraft.Util/]: Invalid entity rotation: NaN, discarding.
-[12Apr2025 03:52:25.212] [Server thread/ERROR] [net.minecraft.Util/]: Invalid entity rotation: NaN, discarding.
-[12Apr2025 03:52:25.311] [Server thread/ERROR] [net.minecraft.Util/]: Invalid entity rotation: NaN, discarding.
-[12Apr2025 03:52:25.412] [Server thread/ERROR] [net.minecraft.Util/]: Invalid entity rotation: NaN, discarding.
-[12Apr2025 03:52:25.511] [Server thread/ERROR] [net.minecraft.Util/]: Invalid entity rotation: NaN, discarding.
-[12Apr2025 03:52:25.611] [Server thread/ERROR] [net.minecraft.Util/]: Invalid entity rotation: NaN, discarding.
-[12Apr2025 03:52:25.716] [Server thread/ERROR] [net.minecraft.Util/]: Invalid entity rotation: NaN, discarding.
-[12Apr2025 03:52:25.880] [Server thread/ERROR] [net.minecraft.Util/]: Invalid entity rotation: NaN, discarding.
-[12Apr2025 03:52:25.972] [Server thread/ERROR] [net.minecraft.Util/]: Invalid entity rotation: NaN, discarding.
-[12Apr2025 03:52:26.110] [Server thread/ERROR] [net.minecraft.Util/]: Invalid entity rotation: NaN, discarding.
-[12Apr2025 03:52:26.211] [Server thread/ERROR] [net.minecraft.Util/]: Invalid entity rotation: NaN, discarding.
-[12Apr2025 03:52:26.548] [Server thread/ERROR] [net.minecraft.Util/]: Invalid entity rotation: NaN, discarding.
-[12Apr2025 03:52:26.785] [Server thread/ERROR] [net.minecraft.Util/]: Invalid entity rotation: NaN, discarding.
-[12Apr2025 03:52:26.909] [Server thread/ERROR] [net.minecraft.Util/]: Invalid entity rotation: NaN, discarding.
-[12Apr2025 03:52:27.063] [Server thread/ERROR] [net.minecraft.Util/]: Invalid entity rotation: NaN, discarding.
-[12Apr2025 03:52:27.108] [Server thread/ERROR] [net.minecraft.Util/]: Invalid entity rotation: NaN, discarding.
-[12Apr2025 03:52:27.143] [Server thread/ERROR] [net.minecraft.Util/]: Invalid entity rotation: NaN, discarding.
-[12Apr2025 03:52:27.163] [Server thread/ERROR] [net.minecraft.Util/]: Invalid entity rotation: NaN, discarding.
-[12Apr2025 03:52:27.182] [Server thread/ERROR] [net.minecraft.Util/]: Invalid entity rotation: NaN, discarding.
-[12Apr2025 03:52:27.196] [Server thread/ERROR] [net.minecraft.Util/]: Invalid entity rotation: NaN, discarding.
-[12Apr2025 03:52:27.210] [Server thread/ERROR] [net.minecraft.Util/]: Invalid entity rotation: NaN, discarding.
-[12Apr2025 03:52:27.226] [Server thread/ERROR] [net.minecraft.Util/]: Invalid entity rotation: NaN, discarding.
-[12Apr2025 03:52:27.309] [Server thread/ERROR] [net.minecraft.Util/]: Invalid entity rotation: NaN, discarding.
-[12Apr2025 03:52:27.409] [Server thread/ERROR] [net.minecraft.Util/]: Invalid entity rotation: NaN, discarding.
-[12Apr2025 03:52:27.512] [Server thread/ERROR] [net.minecraft.Util/]: Invalid entity rotation: NaN, discarding.
-[12Apr2025 03:52:27.609] [Server thread/ERROR] [net.minecraft.Util/]: Invalid entity rotation: NaN, discarding.
-[12Apr2025 03:52:27.709] [Server thread/ERROR] [net.minecraft.Util/]: Invalid entity rotation: NaN, discarding.
-[12Apr2025 03:52:27.809] [Server thread/ERROR] [net.minecraft.Util/]: Invalid entity rotation: NaN, discarding.
-[12Apr2025 03:52:27.909] [Server thread/ERROR] [net.minecraft.Util/]: Invalid entity rotation: NaN, discarding.
-[12Apr2025 03:52:28.011] [Server thread/ERROR] [net.minecraft.Util/]: Invalid entity rotation: NaN, discarding.
-[12Apr2025 03:52:28.109] [Server thread/ERROR] [net.minecraft.Util/]: Invalid entity rotation: NaN, discarding.
-[12Apr2025 03:52:28.210] [Server thread/ERROR] [net.minecraft.Util/]: Invalid entity rotation: NaN, discarding.
-[12Apr2025 03:52:28.309] [Server thread/ERROR] [net.minecraft.Util/]: Invalid entity rotation: NaN, discarding.
-[12Apr2025 03:52:28.410] [Server thread/ERROR] [net.minecraft.Util/]: Invalid entity rotation: NaN, discarding.
-[12Apr2025 03:52:28.509] [Server thread/ERROR] [net.minecraft.Util/]: Invalid entity rotation: NaN, discarding.
-[12Apr2025 03:52:28.609] [Server thread/ERROR] [net.minecraft.Util/]: Invalid entity rotation: NaN, discarding.
-[12Apr2025 03:52:28.710] [Server thread/ERROR] [net.minecraft.Util/]: Invalid entity rotation: NaN, discarding.
-[12Apr2025 03:52:28.809] [Server thread/ERROR] [net.minecraft.Util/]: Invalid entity rotation: NaN, discarding.
-[12Apr2025 03:52:28.909] [Server thread/ERROR] [net.minecraft.Util/]: Invalid entity rotation: NaN, discarding.
-[12Apr2025 03:52:29.009] [Server thread/ERROR] [net.minecraft.Util/]: Invalid entity rotation: NaN, discarding.
-[12Apr2025 03:52:29.109] [Server thread/ERROR] [net.minecraft.Util/]: Invalid entity rotation: NaN, discarding.
-[12Apr2025 03:52:29.209] [Server thread/ERROR] [net.minecraft.Util/]: Invalid entity rotation: NaN, discarding.
-[12Apr2025 03:52:29.309] [Server thread/ERROR] [net.minecraft.Util/]: Invalid entity rotation: NaN, discarding.
-[12Apr2025 03:52:29.410] [Server thread/ERROR] [net.minecraft.Util/]: Invalid entity rotation: NaN, discarding.
-[12Apr2025 03:52:29.510] [Server thread/ERROR] [net.minecraft.Util/]: Invalid entity rotation: NaN, discarding.
-[12Apr2025 03:52:29.611] [Server thread/ERROR] [net.minecraft.Util/]: Invalid entity rotation: NaN, discarding.
-[12Apr2025 03:52:29.709] [Server thread/ERROR] [net.minecraft.Util/]: Invalid entity rotation: NaN, discarding.
-[12Apr2025 03:52:29.721] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [maxiluxmaxxing: Set Ostera's game mode to Survival Mode]
-[12Apr2025 03:52:29.810] [Server thread/ERROR] [net.minecraft.Util/]: Invalid entity rotation: NaN, discarding.
-[12Apr2025 03:52:29.915] [Server thread/ERROR] [net.minecraft.Util/]: Invalid entity rotation: NaN, discarding.
-[12Apr2025 03:52:30.009] [Server thread/ERROR] [net.minecraft.Util/]: Invalid entity rotation: NaN, discarding.
-[12Apr2025 03:52:30.109] [Server thread/ERROR] [net.minecraft.Util/]: Invalid entity rotation: NaN, discarding.
-[12Apr2025 03:52:30.210] [Server thread/ERROR] [net.minecraft.Util/]: Invalid entity rotation: NaN, discarding.
-[12Apr2025 03:52:30.311] [Server thread/ERROR] [net.minecraft.Util/]: Invalid entity rotation: NaN, discarding.
-[12Apr2025 03:52:30.409] [Server thread/ERROR] [net.minecraft.Util/]: Invalid entity rotation: NaN, discarding.
-[12Apr2025 03:52:30.510] [Server thread/ERROR] [net.minecraft.Util/]: Invalid entity rotation: NaN, discarding.
-[12Apr2025 03:52:30.609] [Server thread/ERROR] [net.minecraft.Util/]: Invalid entity rotation: NaN, discarding.
-[12Apr2025 03:52:30.709] [Server thread/ERROR] [net.minecraft.Util/]: Invalid entity rotation: NaN, discarding.
-[12Apr2025 03:52:30.809] [Server thread/ERROR] [net.minecraft.Util/]: Invalid entity rotation: NaN, discarding.
-[12Apr2025 03:52:30.911] [Server thread/ERROR] [net.minecraft.Util/]: Invalid entity rotation: NaN, discarding.
-[12Apr2025 03:52:31.011] [Server thread/ERROR] [net.minecraft.Util/]: Invalid entity rotation: NaN, discarding.
-[12Apr2025 03:52:31.109] [Server thread/ERROR] [net.minecraft.Util/]: Invalid entity rotation: NaN, discarding.
-[12Apr2025 03:52:31.209] [Server thread/ERROR] [net.minecraft.Util/]: Invalid entity rotation: NaN, discarding.
-[12Apr2025 03:52:31.309] [Server thread/ERROR] [net.minecraft.Util/]: Invalid entity rotation: NaN, discarding.
-[12Apr2025 03:52:33.011] [Server thread/ERROR] [net.minecraft.Util/]: Invalid entity rotation: NaN, discarding.
-[12Apr2025 03:52:33.111] [Server thread/ERROR] [net.minecraft.Util/]: Invalid entity rotation: NaN, discarding.
-[12Apr2025 03:52:33.212] [Server thread/ERROR] [net.minecraft.Util/]: Invalid entity rotation: NaN, discarding.
-[12Apr2025 03:52:33.310] [Server thread/ERROR] [net.minecraft.Util/]: Invalid entity rotation: NaN, discarding.
-[12Apr2025 03:52:33.409] [Server thread/ERROR] [net.minecraft.Util/]: Invalid entity rotation: NaN, discarding.
-[12Apr2025 03:52:33.509] [Server thread/ERROR] [net.minecraft.Util/]: Invalid entity rotation: NaN, discarding.
-[12Apr2025 03:52:33.609] [Server thread/ERROR] [net.minecraft.Util/]: Invalid entity rotation: NaN, discarding.
-[12Apr2025 03:52:33.709] [Server thread/ERROR] [net.minecraft.Util/]: Invalid entity rotation: NaN, discarding.
-[12Apr2025 03:52:33.809] [Server thread/ERROR] [net.minecraft.Util/]: Invalid entity rotation: NaN, discarding.
-[12Apr2025 03:52:33.909] [Server thread/ERROR] [net.minecraft.Util/]: Invalid entity rotation: NaN, discarding.
-[12Apr2025 03:52:34.009] [Server thread/ERROR] [net.minecraft.Util/]: Invalid entity rotation: NaN, discarding.
-[12Apr2025 03:52:34.110] [Server thread/ERROR] [net.minecraft.Util/]: Invalid entity rotation: NaN, discarding.
-[12Apr2025 03:52:34.209] [Server thread/ERROR] [net.minecraft.Util/]: Invalid entity rotation: NaN, discarding.
-[12Apr2025 03:52:34.309] [Server thread/ERROR] [net.minecraft.Util/]: Invalid entity rotation: NaN, discarding.
-[12Apr2025 03:52:34.409] [Server thread/ERROR] [net.minecraft.Util/]: Invalid entity rotation: NaN, discarding.
-[12Apr2025 03:52:34.510] [Server thread/ERROR] [net.minecraft.Util/]: Invalid entity rotation: NaN, discarding.
-[12Apr2025 03:52:34.609] [Server thread/ERROR] [net.minecraft.Util/]: Invalid entity rotation: NaN, discarding.
-[12Apr2025 03:52:34.612] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Ostera: Set own game mode to Creative Mode]
-[12Apr2025 03:52:34.709] [Server thread/ERROR] [net.minecraft.Util/]: Invalid entity rotation: NaN, discarding.
-[12Apr2025 03:52:34.809] [Server thread/ERROR] [net.minecraft.Util/]: Invalid entity rotation: NaN, discarding.
-[12Apr2025 03:52:34.909] [Server thread/ERROR] [net.minecraft.Util/]: Invalid entity rotation: NaN, discarding.
-[12Apr2025 03:52:35.010] [Server thread/ERROR] [net.minecraft.Util/]: Invalid entity rotation: NaN, discarding.
-[12Apr2025 03:52:35.109] [Server thread/ERROR] [net.minecraft.Util/]: Invalid entity rotation: NaN, discarding.
-[12Apr2025 03:52:35.212] [Server thread/ERROR] [net.minecraft.Util/]: Invalid entity rotation: NaN, discarding.
-[12Apr2025 03:52:35.309] [Server thread/ERROR] [net.minecraft.Util/]: Invalid entity rotation: NaN, discarding.
-[12Apr2025 03:52:35.409] [Server thread/ERROR] [net.minecraft.Util/]: Invalid entity rotation: NaN, discarding.
-[12Apr2025 03:52:35.510] [Server thread/ERROR] [net.minecraft.Util/]: Invalid entity rotation: NaN, discarding.
-[12Apr2025 03:52:35.610] [Server thread/ERROR] [net.minecraft.Util/]: Invalid entity rotation: NaN, discarding.
-[12Apr2025 03:52:35.709] [Server thread/ERROR] [net.minecraft.Util/]: Invalid entity rotation: NaN, discarding.
-[12Apr2025 03:52:35.811] [Server thread/ERROR] [net.minecraft.Util/]: Invalid entity rotation: NaN, discarding.
-[12Apr2025 03:52:35.909] [Server thread/ERROR] [net.minecraft.Util/]: Invalid entity rotation: NaN, discarding.
-[12Apr2025 03:52:36.009] [Server thread/ERROR] [net.minecraft.Util/]: Invalid entity rotation: NaN, discarding.
-[12Apr2025 03:52:36.109] [Server thread/ERROR] [net.minecraft.Util/]: Invalid entity rotation: NaN, discarding.
-[12Apr2025 03:52:36.210] [Server thread/ERROR] [net.minecraft.Util/]: Invalid entity rotation: NaN, discarding.
-[12Apr2025 03:52:36.311] [Server thread/ERROR] [net.minecraft.Util/]: Invalid entity rotation: NaN, discarding.
-[12Apr2025 03:52:36.409] [Server thread/ERROR] [net.minecraft.Util/]: Invalid entity rotation: NaN, discarding.
-[12Apr2025 03:52:36.509] [Server thread/ERROR] [net.minecraft.Util/]: Invalid entity rotation: NaN, discarding.
-[12Apr2025 03:52:36.610] [Server thread/ERROR] [net.minecraft.Util/]: Invalid entity rotation: NaN, discarding.
-[12Apr2025 03:52:36.710] [Server thread/ERROR] [net.minecraft.Util/]: Invalid entity rotation: NaN, discarding.
-[12Apr2025 03:52:36.809] [Server thread/ERROR] [net.minecraft.Util/]: Invalid entity rotation: NaN, discarding.
-[12Apr2025 03:52:36.909] [Server thread/ERROR] [net.minecraft.Util/]: Invalid entity rotation: NaN, discarding.
-[12Apr2025 03:52:37.009] [Server thread/ERROR] [net.minecraft.Util/]: Invalid entity rotation: NaN, discarding.
-[12Apr2025 03:52:37.109] [Server thread/ERROR] [net.minecraft.Util/]: Invalid entity rotation: NaN, discarding.
-[12Apr2025 03:52:37.210] [Server thread/ERROR] [net.minecraft.Util/]: Invalid entity rotation: NaN, discarding.
-[12Apr2025 03:52:37.310] [Server thread/ERROR] [net.minecraft.Util/]: Invalid entity rotation: NaN, discarding.
-[12Apr2025 03:52:37.411] [Server thread/ERROR] [net.minecraft.Util/]: Invalid entity rotation: NaN, discarding.
-[12Apr2025 03:52:37.510] [Server thread/ERROR] [net.minecraft.Util/]: Invalid entity rotation: NaN, discarding.
-[12Apr2025 03:52:37.610] [Server thread/ERROR] [net.minecraft.Util/]: Invalid entity rotation: NaN, discarding.
-[12Apr2025 03:52:37.709] [Server thread/ERROR] [net.minecraft.Util/]: Invalid entity rotation: NaN, discarding.
-[12Apr2025 03:52:37.809] [Server thread/ERROR] [net.minecraft.Util/]: Invalid entity rotation: NaN, discarding.
-[12Apr2025 03:52:37.911] [Server thread/ERROR] [net.minecraft.Util/]: Invalid entity rotation: NaN, discarding.
-[12Apr2025 03:52:38.009] [Server thread/ERROR] [net.minecraft.Util/]: Invalid entity rotation: NaN, discarding.
-[12Apr2025 03:52:38.110] [Server thread/ERROR] [net.minecraft.Util/]: Invalid entity rotation: NaN, discarding.
-[12Apr2025 03:52:38.209] [Server thread/ERROR] [net.minecraft.Util/]: Invalid entity rotation: NaN, discarding.
-[12Apr2025 03:52:38.309] [Server thread/ERROR] [net.minecraft.Util/]: Invalid entity rotation: NaN, discarding.
-[12Apr2025 03:52:38.410] [Server thread/ERROR] [net.minecraft.Util/]: Invalid entity rotation: NaN, discarding.
-[12Apr2025 03:52:38.509] [Server thread/ERROR] [net.minecraft.Util/]: Invalid entity rotation: NaN, discarding.
-[12Apr2025 03:52:38.609] [Server thread/ERROR] [net.minecraft.Util/]: Invalid entity rotation: NaN, discarding.
-[12Apr2025 03:52:38.709] [Server thread/ERROR] [net.minecraft.Util/]: Invalid entity rotation: NaN, discarding.
-[12Apr2025 03:52:38.812] [Server thread/ERROR] [net.minecraft.Util/]: Invalid entity rotation: NaN, discarding.
-[12Apr2025 03:52:38.909] [Server thread/ERROR] [net.minecraft.Util/]: Invalid entity rotation: NaN, discarding.
-[12Apr2025 03:52:39.009] [Server thread/ERROR] [net.minecraft.Util/]: Invalid entity rotation: NaN, discarding.
-[12Apr2025 03:52:39.110] [Server thread/ERROR] [net.minecraft.Util/]: Invalid entity rotation: NaN, discarding.
-[12Apr2025 03:52:39.209] [Server thread/ERROR] [net.minecraft.Util/]: Invalid entity rotation: NaN, discarding.
-[12Apr2025 03:52:39.309] [Server thread/ERROR] [net.minecraft.Util/]: Invalid entity rotation: NaN, discarding.
-[12Apr2025 03:52:39.412] [Server thread/ERROR] [net.minecraft.Util/]: Invalid entity rotation: NaN, discarding.
-[12Apr2025 03:52:39.510] [Server thread/ERROR] [net.minecraft.Util/]: Invalid entity rotation: NaN, discarding.
-[12Apr2025 03:52:39.610] [Server thread/ERROR] [net.minecraft.Util/]: Invalid entity rotation: NaN, discarding.
-[12Apr2025 03:52:39.709] [Server thread/ERROR] [net.minecraft.Util/]: Invalid entity rotation: NaN, discarding.
-[12Apr2025 03:52:39.810] [Server thread/ERROR] [net.minecraft.Util/]: Invalid entity rotation: NaN, discarding.
-[12Apr2025 03:52:39.909] [Server thread/ERROR] [net.minecraft.Util/]: Invalid entity rotation: NaN, discarding.
-[12Apr2025 03:52:40.009] [Server thread/ERROR] [net.minecraft.Util/]: Invalid entity rotation: NaN, discarding.
-[12Apr2025 03:52:40.110] [Server thread/ERROR] [net.minecraft.Util/]: Invalid entity rotation: NaN, discarding.
-[12Apr2025 03:52:42.654] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [maxiluxmaxxing: Killed Ostera]
-[12Apr2025 03:52:45.011] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Ostera: Set own game mode to Survival Mode]
-[12Apr2025 03:52:48.064] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Ostera: Set own game mode to Creative Mode]
-[12Apr2025 03:52:55.912] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Ostera: Set own game mode to Survival Mode]
-[12Apr2025 03:52:58.454] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Ostera: Set own game mode to Creative Mode]
-[12Apr2025 03:52:58.845] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [maxiluxmaxxing: Killed maxiluxmaxxing]
-[12Apr2025 03:53:02.681] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Ostera: Set own game mode to Survival Mode]
-[12Apr2025 03:53:16.421] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [maxiluxmaxxing: Set Ostera's game mode to Creative Mode]
-[12Apr2025 03:53:30.561] [Server thread/INFO] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Ostera lost connection: Disconnected
-[12Apr2025 03:53:30.562] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Ostera left the game
-[12Apr2025 03:53:30.564] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Ostera was killed
-[12Apr2025 03:53:30.569] [Server thread/INFO] [voicechat/]: [voicechat] Disconnecting client Ostera
-[12Apr2025 03:53:36.569] [Server thread/INFO] [net.minecraft.server.players.PlayerList/]: Ostera[/100.80.244.12:61105] logged in with entity id 5303 at (-116.46416967946168, 63.0, 252.72384964664482)
-[12Apr2025 03:53:36.586] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Ostera joined the game
-[12Apr2025 03:53:36.625] [Server thread/INFO] [Jade/]: Syncing config to Ostera (745233b0-54fc-3585-b02b-cc08bb97b580)
-[12Apr2025 03:53:36.980] [Server thread/INFO] [voicechat/]: [voicechat] Received secret request of Ostera (18)
-[12Apr2025 03:53:36.980] [Server thread/INFO] [voicechat/]: [voicechat] Sent secret to Ostera
-[12Apr2025 03:53:39.727] [VoiceChatPacketProcessingThread/INFO] [voicechat/]: [voicechat] Successfully authenticated player 745233b0-54fc-3585-b02b-cc08bb97b580
-[12Apr2025 03:53:40.730] [VoiceChatPacketProcessingThread/INFO] [voicechat/]: [voicechat] Successfully validated connection of player 745233b0-54fc-3585-b02b-cc08bb97b580
-[12Apr2025 03:53:40.730] [VoiceChatPacketProcessingThread/INFO] [voicechat/]: [voicechat] Player Ostera (745233b0-54fc-3585-b02b-cc08bb97b580) successfully connected to voice chat
-[12Apr2025 03:53:42.549] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Ostera: Set own game mode to Survival Mode]
-[12Apr2025 03:53:46.114] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Ostera: Set own game mode to Creative Mode]
-[12Apr2025 03:54:36.192] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Ostera: Killed maxiluxmaxxing]
-[12Apr2025 03:54:44.913] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: maxiluxmaxxing was killed
-[12Apr2025 03:55:17.663] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Ostera has made the advancement [Amateur Archaeologist]
-[12Apr2025 03:56:09.426] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Ostera: Set own game mode to Spectator Mode]
-[12Apr2025 03:56:21.216] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Ostera: Set own game mode to Creative Mode]
-[12Apr2025 03:56:44.500] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Agus2000: Set the weather to rain & thunder]
-[12Apr2025 03:57:22.812] [Server thread/ERROR] [net.minecraft.world.entity.ai.village.poi.PoiSection/]: POI data mismatch: never registered at BlockPos{x=-103, y=67, z=275}
-[12Apr2025 03:57:44.709] [Server thread/ERROR] [net.minecraft.world.entity.ai.village.poi.PoiSection/]: POI data mismatch: never registered at BlockPos{x=-103, y=67, z=263}
-[12Apr2025 03:57:51.158] [Server thread/ERROR] [net.minecraft.world.entity.ai.village.poi.PoiSection/]: POI data mismatch: never registered at BlockPos{x=-103, y=67, z=269}
-[12Apr2025 03:57:51.508] [Server thread/ERROR] [net.minecraft.world.entity.ai.village.poi.PoiSection/]: POI data mismatch: never registered at BlockPos{x=-103, y=67, z=275}
-[12Apr2025 03:57:55.110] [Server thread/ERROR] [net.minecraft.world.entity.ai.village.poi.PoiSection/]: POI data mismatch: never registered at BlockPos{x=-103, y=67, z=273}
-[12Apr2025 03:58:54.036] [Server thread/INFO] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: maxiluxmaxxing lost connection: Disconnected
-[12Apr2025 03:58:54.037] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: maxiluxmaxxing left the game
-[12Apr2025 03:58:54.037] [Server thread/INFO] [voicechat/]: [voicechat] Disconnecting client maxiluxmaxxing
-[12Apr2025 03:59:57.363] [Server thread/INFO] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Agus2000 lost connection: Disconnected
-[12Apr2025 03:59:57.363] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Agus2000 left the game
-[12Apr2025 03:59:57.364] [Server thread/INFO] [voicechat/]: [voicechat] Disconnecting client Agus2000
-[12Apr2025 04:00:01.872] [Server thread/INFO] [net.minecraft.server.players.PlayerList/]: maxiluxmaxxing[/100.102.81.69:59969] logged in with entity id 7187 at (-109.75789141083443, 64.0, 277.7199048449577)
-[12Apr2025 04:00:01.885] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: maxiluxmaxxing joined the game
-[12Apr2025 04:00:01.913] [Server thread/INFO] [Jade/]: Syncing config to maxiluxmaxxing (323edfcc-57b8-34a2-a801-88080d716c6a)
-[12Apr2025 04:00:02.615] [Server thread/INFO] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Ostera lost connection: Disconnected
-[12Apr2025 04:00:02.615] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Ostera left the game
-[12Apr2025 04:00:02.615] [Server thread/INFO] [voicechat/]: [voicechat] Disconnecting client Ostera
-[12Apr2025 04:00:02.677] [Server thread/INFO] [voicechat/]: [voicechat] Received secret request of maxiluxmaxxing (18)
-[12Apr2025 04:00:02.678] [Server thread/INFO] [voicechat/]: [voicechat] Sent secret to maxiluxmaxxing
-[12Apr2025 04:00:06.696] [VoiceChatPacketProcessingThread/INFO] [voicechat/]: [voicechat] Successfully authenticated player 323edfcc-57b8-34a2-a801-88080d716c6a
-[12Apr2025 04:00:07.699] [VoiceChatPacketProcessingThread/INFO] [voicechat/]: [voicechat] Successfully validated connection of player 323edfcc-57b8-34a2-a801-88080d716c6a
-[12Apr2025 04:00:07.700] [VoiceChatPacketProcessingThread/INFO] [voicechat/]: [voicechat] Player maxiluxmaxxing (323edfcc-57b8-34a2-a801-88080d716c6a) successfully connected to voice chat
-[12Apr2025 04:00:08.465] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Stopping the server
-[12Apr2025 04:00:08.506] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Stopping server
-[12Apr2025 04:00:08.506] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving players
-[12Apr2025 04:00:08.510] [Server thread/INFO] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: maxiluxmaxxing lost connection: Disconnected
-[12Apr2025 04:00:08.510] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: maxiluxmaxxing left the game
-[12Apr2025 04:00:08.513] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving worlds
-[12Apr2025 04:00:08.937] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[world]'/minecraft:overworld
-[12Apr2025 04:00:09.937] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[world]'/minecraft:the_end
-[12Apr2025 04:00:09.938] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[world]'/minecraft:the_nether
-[12Apr2025 04:00:10.003] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: ThreadedAnvilChunkStorage (world): All chunks are saved
-[12Apr2025 04:00:10.003] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: ThreadedAnvilChunkStorage (DIM1): All chunks are saved
-[12Apr2025 04:00:10.003] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: ThreadedAnvilChunkStorage (DIM-1): All chunks are saved
-[12Apr2025 04:00:10.003] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: ThreadedAnvilChunkStorage: All dimensions are saved
+[12Apr2025 21:00:09.659] [modloading-worker-0/INFO] [dev.architectury.networking.forge.NetworkManagerImpl/]: Registering C2S receiver with id architectury:sync_ids
+[12Apr2025 21:00:09.660] [modloading-worker-0/INFO] [dev.architectury.networking.forge.NetworkManagerImpl/]: Registering C2S receiver with id artifacts:networking_channel/42a7ad70b1cc371599a0eff744096b8a
+[12Apr2025 21:00:09.662] [modloading-worker-0/INFO] [dev.architectury.networking.forge.NetworkManagerImpl/]: Registering C2S receiver with id artifacts:networking_channel/74a5e841822a3a87854ae896a33430d6
+[12Apr2025 21:00:09.663] [modloading-worker-0/INFO] [dev.architectury.networking.forge.NetworkManagerImpl/]: Registering C2S receiver with id artifacts:networking_channel/eb3d1e2748533430848cadf0f37c7e9c
+[12Apr2025 21:00:09.665] [modloading-worker-0/INFO] [dev.architectury.networking.forge.NetworkManagerImpl/]: Registering C2S receiver with id artifacts:networking_channel/91c8520f19f93b3e8b6a727568e194ab
+[12Apr2025 21:00:09.666] [modloading-worker-0/INFO] [dev.architectury.networking.forge.NetworkManagerImpl/]: Registering C2S receiver with id artifacts:networking_channel/8c2784d778293fd482ed84b8aa5fedb9
+[12Apr2025 21:00:09.674] [modloading-worker-0/INFO] [dev.architectury.networking.forge.NetworkManagerImpl/]: Registering C2S receiver with id artifacts:networking_channel/ea038224ea783d40b2863f52239e2604
+[12Apr2025 21:00:09.675] [modloading-worker-0/INFO] [dev.architectury.networking.forge.NetworkManagerImpl/]: Registering C2S receiver with id artifacts:networking_channel/97ad64b7ecaf33209991c4f031501a58
+[12Apr2025 21:00:10.231] [modloading-worker-0/INFO] [be.florens.expandability.ExpandAbility/]: ExpandAbility here, who dis?
+[12Apr2025 21:00:10.234] [modloading-worker-0/INFO] [net.minecraftforge.common.ForgeMod/FORGEMOD]: Forge mod loading, version 47.3.7, for MC 1.20.1 with MCP 20230612.114412
+[12Apr2025 21:00:10.235] [modloading-worker-0/INFO] [net.minecraftforge.common.MinecraftForge/FORGE]: MinecraftForge v47.3.7 Initialized
+[12Apr2025 21:00:10.368] [modloading-worker-0/INFO] [End's Phantasm/]: Registering Sounds for mod id : phantasm
+[12Apr2025 21:00:10.375] [modloading-worker-0/INFO] [End's Phantasm/]: Loading Configs for Phantasm
+[12Apr2025 21:00:16.526] [main/WARN] [net.minecraft.network.syncher.SynchedEntityData/]: defineId called for: class com.github.alexmodguy.alexscaves.server.entity.living.TremorzillaEntity from class com.github.alexmodguy.alexscaves.server.entity.living.LicowitchEntity
+[12Apr2025 21:00:16.849] [modloading-worker-0/INFO] [voicechat/]: [voicechat] Compatibility version 18
+[12Apr2025 21:00:16.863] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [securitycraft] Starting version check at https://www.github.com/Geforce132/SecurityCraft/raw/master/Updates/Forge.json
+[12Apr2025 21:00:16.920] [modloading-worker-0/INFO] [voicechat/]: [voicechat] Loading plugins
+[12Apr2025 21:00:16.926] [modloading-worker-0/INFO] [voicechat/]: [voicechat] Loaded 0 plugin(s)
+[12Apr2025 21:00:16.926] [modloading-worker-0/INFO] [voicechat/]: [voicechat] Initializing plugins
+[12Apr2025 21:00:16.926] [modloading-worker-0/INFO] [voicechat/]: [voicechat] Initialized 0 plugin(s)
+[12Apr2025 21:00:17.059] [main/INFO] [de.teamlapen.vampirism.core.ModEffects/]: Fixing vanilla night vision potion types
+[12Apr2025 21:00:17.134] [main/INFO] [de.teamlapen.vampirism.core.ModEffects/]: Fixing vanilla night vision potion types
+[12Apr2025 21:00:17.360] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [securitycraft] Found status: UP_TO_DATE Current: 1.9.12 Target: null
+[12Apr2025 21:00:17.361] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [vampirism] Starting version check at https://api.modrinth.com/updates/vampirism/forge_updates.json
+[12Apr2025 21:00:17.737] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [vampirism] Found status: UP_TO_DATE Current: 1.10.13 Target: null
+[12Apr2025 21:00:17.737] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [voicechat] Starting version check at https://update.maxhenkel.de/forge/voicechat
+[12Apr2025 21:00:18.813] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [voicechat] Found status: AHEAD Current: 1.20.1-2.5.29 Target: null
+[12Apr2025 21:00:18.813] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [forge] Starting version check at https://files.minecraftforge.net/net/minecraftforge/forge/promotions_slim.json
+[12Apr2025 21:00:19.060] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [forge] Found status: OUTDATED Current: 47.3.7 Target: 47.4.0
+[12Apr2025 21:00:19.062] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [corpse] Starting version check at https://update.maxhenkel.de/forge/corpse
+[12Apr2025 21:00:19.224] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [corpse] Found status: AHEAD Current: 1.20.1-1.0.20 Target: null
+[12Apr2025 21:00:19.887] [main/INFO] [com.mojang.authlib.yggdrasil.YggdrasilAuthenticationService/]: Environment: authHost='https://authserver.mojang.com', accountsHost='https://api.mojang.com', sessionHost='https://sessionserver.mojang.com', servicesHost='https://api.minecraftservices.com', name='PROD'
+[12Apr2025 21:00:19.986] [main/WARN] [net.minecraftforge.common.ForgeHooks/WP]: The following mods have version differences that were not resolved:
+appleskin (version 2.5.1+mc1.20.1 -> MISSING)
+jade (version 11.13.1+forge -> MISSING)
+jei (version 15.20.0.106 -> MISSING)
+xaerominimap (version 25.2.0 -> MISSING)
+xaeroworldmap (version 1.39.4 -> MISSING)
+Things may not work well.
+[12Apr2025 21:00:20.101] [main/ERROR] [net.minecraftforge.registries.GameData/REGISTRIES]: Unidentified mapping from registry minecraft:mob_effect
+	xaerominimap:no_cave_maps: 65
+	xaerominimap:no_cave_maps_harmful: 66
+	xaerominimap:no_entity_radar: 61
+	xaerominimap:no_entity_radar_harmful: 62
+	xaerominimap:no_minimap: 59
+	xaerominimap:no_minimap_harmful: 60
+	xaerominimap:no_waypoints: 63
+	xaerominimap:no_waypoints_harmful: 64
+	xaeroworldmap:no_cave_maps: 69
+	xaeroworldmap:no_cave_maps_harmful: 70
+	xaeroworldmap:no_world_map: 67
+	xaeroworldmap:no_world_map_harmful: 68
+
+[12Apr2025 21:00:20.103] [main/WARN] [net.minecraftforge.registries.GameData/REGISTRIES]: Forge Mod Loader detected missing registry entries.
+
+There are 12 missing entries in this save.
+If you continue the missing entries will get removed.
+A world backup will be automatically created in your saves directory.
+
+
+[12Apr2025 21:00:20.103] [main/WARN] [net.minecraftforge.registries.GameData/REGISTRIES]: Missing minecraft:mob_effect:
+    xaerominimap:no_cave_maps
+    xaerominimap:no_cave_maps_harmful
+    xaerominimap:no_entity_radar
+    xaerominimap:no_entity_radar_harmful
+    xaerominimap:no_minimap
+    xaerominimap:no_minimap_harmful
+    xaerominimap:no_waypoints
+    xaerominimap:no_waypoints_harmful
+    xaeroworldmap:no_cave_maps
+    xaeroworldmap:no_cave_maps_harmful
+    xaeroworldmap:no_world_map
+    xaeroworldmap:no_world_map_harmful
+
+
+[12Apr2025 21:00:20.103] [main/ERROR] [net.minecraftforge.registries.GameData/REGISTRIES]: There are unidentified mappings in this world - we are going to attempt to process anyway
+[12Apr2025 21:00:21.648] [main/WARN] [net.minecraft.server.packs.VanillaPackResourcesBuilder/]: Assets URL 'union:/workspaces/refactored-fortnight/servidor_minecraft/libraries/net/minecraft/server/1.20.1-20230612.114412/server-1.20.1-20230612.114412-srg.jar%23153!/assets/.mcassetsroot' uses unexpected schema
+[12Apr2025 21:00:21.648] [main/WARN] [net.minecraft.server.packs.VanillaPackResourcesBuilder/]: Assets URL 'union:/workspaces/refactored-fortnight/servidor_minecraft/libraries/net/minecraft/server/1.20.1-20230612.114412/server-1.20.1-20230612.114412-srg.jar%23153!/data/.mcassetsroot' uses unexpected schema
+[12Apr2025 21:00:21.700] [main/WARN] [net.minecraft.server.MinecraftServer/]: Missing data pack mod:jade
+[12Apr2025 21:00:21.700] [main/WARN] [net.minecraft.server.MinecraftServer/]: Missing data pack mod:jei
+[12Apr2025 21:00:21.700] [main/WARN] [net.minecraft.server.MinecraftServer/]: Missing data pack mod:xaerominimap
+[12Apr2025 21:00:21.701] [main/WARN] [net.minecraft.server.MinecraftServer/]: Missing data pack mod:xaeroworldmap
+[12Apr2025 21:00:21.701] [main/WARN] [net.minecraft.server.MinecraftServer/]: Missing data pack mod:appleskin
+[12Apr2025 21:00:22.853] [main/INFO] [de.teamlapen.vampirism.world.biome.OverworldModifications/]: Adding biome vampirism:vampire_forest to ParameterPoints [ParameterPoint[temperature=[-4000--1900], humidity=[1000-3000], continentalness=[-1100-5500], erosion=[-3750--2225], depth=0, weirdness=[-5666--500], offset=0], ParameterPoint[temperature=[-4000--1900], humidity=[1000-3000], continentalness=[-1100-5500], erosion=[-3750--2225], depth=0, weirdness=[500-4000], offset=0]] in Preset.OVERWORLD
+[12Apr2025 21:00:23.543] [main/INFO] [com.github.alexthe666.alexsmobs.AlexsMobs/]: Adding datapack listener capsid_recipes
+[12Apr2025 21:00:24.520] [main/WARN] [net.minecraft.world.level.storage.loot.LootDataManager/]: Found loot table element validation problem in {loot_tables:phantasm:blocks/acidic_nihilium}.pools[0].entries[0].entry[1]: Empty children list
+[12Apr2025 21:00:24.520] [main/WARN] [net.minecraft.world.level.storage.loot.LootDataManager/]: Found loot table element validation problem in {loot_tables:phantasm:blocks/vivid_nihilium}.pools[0].entries[0].entry[1]: Empty children list
+[12Apr2025 21:00:24.520] [main/WARN] [net.minecraft.world.level.storage.loot.LootDataManager/]: Found loot table element validation problem in {loot_tables:phantasm:blocks/hanging_pream_leaves}.pools[0].entries[0].entry[1]: Empty children list
+[12Apr2025 21:00:24.520] [main/WARN] [net.minecraft.world.level.storage.loot.LootDataManager/]: Found loot table element validation problem in {loot_tables:phantasm:blocks/pome}.pools[0].entries[0].entry[1]: Empty children list
+[12Apr2025 21:00:24.520] [main/WARN] [net.minecraft.world.level.storage.loot.LootDataManager/]: Found loot table element validation problem in {loot_tables:phantasm:blocks/cirite_iron_ore}.pools[0].entries[0].entry[1]: Empty children list
+[12Apr2025 21:00:24.570] [main/INFO] [net.minecraft.world.item.crafting.RecipeManager/]: Skipping loading recipe vampirism:general/umbrella as it's serializer returned null
+[12Apr2025 21:00:24.644] [main/INFO] [net.minecraft.world.item.crafting.RecipeManager/]: Skipping loading recipe vampirism:vampire/blood_bottle as it's serializer returned null
+[12Apr2025 21:00:24.715] [main/INFO] [net.minecraft.world.item.crafting.RecipeManager/]: Skipping loading recipe vampirism:general/guidebook as it's serializer returned null
+[12Apr2025 21:00:24.727] [main/INFO] [net.minecraft.world.item.crafting.RecipeManager/]: Loaded 12 recipes
+[12Apr2025 21:00:24.872] [main/INFO] [net.minecraft.advancements.AdvancementList/]: Loaded 3265 advancements
+[12Apr2025 21:00:24.882] [main/INFO] [top.theillusivec4.curios.Curios/]: Loaded 11 curio slots
+[12Apr2025 21:00:24.888] [main/INFO] [top.theillusivec4.curios.Curios/]: Loaded 11 curio entities
+[12Apr2025 21:00:24.893] [main/INFO] [de.teamlapen.vampirism.entity.player.skills.SkillTree/]: Loaded 53 skill nodes
+[12Apr2025 21:00:24.899] [main/INFO] [de.teamlapen.vampirism.entity.converted.VampirismEntityRegistry/]: Registered 14 convertibles
+[12Apr2025 21:00:26.571] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Starting minecraft server version 1.20.1
+[12Apr2025 21:00:26.571] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Loading properties
+[12Apr2025 21:00:26.571] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Default game type: SURVIVAL
+[12Apr2025 21:00:26.571] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Generating keypair
+[12Apr2025 21:00:26.696] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Starting Minecraft server on *:25565
+[12Apr2025 21:00:26.723] [Server thread/INFO] [net.minecraft.server.network.ServerConnectionListener/]: Using epoll channel type
+[12Apr2025 21:00:26.814] [Server thread/WARN] [net.minecraft.server.dedicated.DedicatedServer/]: **** SERVER IS RUNNING IN OFFLINE/INSECURE MODE!
+[12Apr2025 21:00:26.814] [Server thread/WARN] [net.minecraft.server.dedicated.DedicatedServer/]: The server will make no attempt to authenticate usernames. Beware.
+[12Apr2025 21:00:26.814] [Server thread/WARN] [net.minecraft.server.dedicated.DedicatedServer/]: While this makes the game possible to play without internet access, it also opens up the ability for hackers to connect with any username they choose.
+[12Apr2025 21:00:26.814] [Server thread/WARN] [net.minecraft.server.dedicated.DedicatedServer/]: To change this, set "online-mode" to "true" in the server.properties file.
+[12Apr2025 21:00:27.022] [Server thread/INFO] [net.jadenxgamer.elysium_api.Elysium/]: ElysiumBiomeSource successfully initialized for minecraft:the_nether
+[12Apr2025 21:00:27.023] [Server thread/INFO] [net.jadenxgamer.elysium_api.Elysium/]: ElysiumBiomeSource successfully initialized for minecraft:overworld
+[12Apr2025 21:00:27.026] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Preparing level "world"
+[12Apr2025 21:00:27.501] [Server thread/INFO] [de.teamlapen.vampirism.GeneralEventHandler/]: Replacing DistanceManager.chunksToUpdateFutures for level ResourceKey[minecraft:dimension / minecraft:overworld] with concurrent set.
+[12Apr2025 21:00:27.644] [Netty Epoll Server IO #1/INFO] [net.minecraftforge.server.ServerLifecycleHooks/SERVERHOOKS]: Disconnecting Player (server is still starting): literal{Server is still starting! Please wait before reconnecting.}
+[12Apr2025 21:00:32.632] [Netty Epoll Server IO #2/INFO] [net.minecraftforge.server.ServerLifecycleHooks/SERVERHOOKS]: Disconnecting Player (server is still starting): literal{Server is still starting! Please wait before reconnecting.}
+[12Apr2025 21:00:37.087] [Netty Epoll Server IO #3/INFO] [net.minecraftforge.server.ServerLifecycleHooks/SERVERHOOKS]: Disconnecting Player (server is still starting): literal{Server is still starting! Please wait before reconnecting.}
+[12Apr2025 21:00:37.612] [Server thread/INFO] [de.teamlapen.vampirism.GeneralEventHandler/]: Replacing DistanceManager.chunksToUpdateFutures for level ResourceKey[minecraft:dimension / minecraft:the_end] with concurrent set.
+[12Apr2025 21:00:37.634] [Server thread/INFO] [de.teamlapen.vampirism.GeneralEventHandler/]: Replacing DistanceManager.chunksToUpdateFutures for level ResourceKey[minecraft:dimension / minecraft:the_nether] with concurrent set.
+[12Apr2025 21:00:37.635] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Preparing start region for dimension minecraft:overworld
+[12Apr2025 21:00:39.087] [Netty Epoll Server IO #4/INFO] [net.minecraftforge.server.ServerLifecycleHooks/SERVERHOOKS]: Disconnecting Player (server is still starting): literal{Server is still starting! Please wait before reconnecting.}
+[12Apr2025 21:00:44.371] [Worker-Main-4/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
+[12Apr2025 21:00:44.373] [Worker-Main-4/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
+[12Apr2025 21:00:44.373] [Worker-Main-4/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
+[12Apr2025 21:00:44.374] [Worker-Main-3/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
+[12Apr2025 21:00:44.375] [Worker-Main-3/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
+[12Apr2025 21:00:44.376] [Worker-Main-3/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
+[12Apr2025 21:00:44.376] [Worker-Main-3/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
+[12Apr2025 21:00:44.378] [Worker-Main-4/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
+[12Apr2025 21:00:44.378] [Worker-Main-4/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
+[12Apr2025 21:00:44.379] [Worker-Main-4/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
+[12Apr2025 21:00:44.380] [Worker-Main-5/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
+[12Apr2025 21:00:44.381] [Worker-Main-5/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
+[12Apr2025 21:00:44.382] [Worker-Main-5/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
+[12Apr2025 21:00:44.383] [Worker-Main-5/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
+[12Apr2025 21:00:44.636] [Worker-Main-3/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
+[12Apr2025 21:00:45.136] [Worker-Main-5/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 19%
+[12Apr2025 21:00:45.636] [Worker-Main-4/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 84%
+[12Apr2025 21:00:45.788] [Server thread/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Time elapsed: 8153 ms
+[12Apr2025 21:00:45.789] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Done (18.959s)! For help, type "help"
+[12Apr2025 21:00:45.906] [Server thread/INFO] [net.minecraftforge.server.permission.PermissionAPI/]: Successfully initialized permission handler forge:default_handler
+[12Apr2025 21:00:45.909] [Server thread/WARN] [voicechat/]: [voicechat] Running in offline mode - Voice chat encryption is not secure!
+[12Apr2025 21:00:45.921] [VoiceChatServerThread/INFO] [voicechat/]: [voicechat] Voice chat server started at port 24454
+[12Apr2025 21:00:53.853] [Server thread/INFO] [net.minecraft.server.players.PlayerList/]: Agus2000[/100.99.96.52:64841] logged in with entity id 211 at (-123.33399664851258, 75.14087275298075, 264.059072705224)
+[12Apr2025 21:00:53.970] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Agus2000 joined the game
+[12Apr2025 21:00:54.326] [Server thread/INFO] [voicechat/]: [voicechat] Received secret request of Agus2000 (18)
+[12Apr2025 21:00:54.328] [Server thread/INFO] [voicechat/]: [voicechat] Sent secret to Agus2000
+[12Apr2025 21:00:56.803] [VoiceChatPacketProcessingThread/INFO] [voicechat/]: [voicechat] Successfully authenticated player c9beb890-2671-3838-a808-2f68a93b3ca2
+[12Apr2025 21:00:57.800] [VoiceChatPacketProcessingThread/INFO] [voicechat/]: [voicechat] Successfully validated connection of player c9beb890-2671-3838-a808-2f68a93b3ca2
+[12Apr2025 21:00:57.805] [VoiceChatPacketProcessingThread/INFO] [voicechat/]: [voicechat] Player Agus2000 (c9beb890-2671-3838-a808-2f68a93b3ca2) successfully connected to voice chat
+[12Apr2025 21:01:00.994] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Agus2000: Made maxiluxmaxxing no longer a server operator]
+[12Apr2025 21:01:06.058] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Agus2000: Made Ostera no longer a server operator]
+[12Apr2025 21:01:10.749] [Server thread/INFO] [net.minecraft.server.players.PlayerList/]: Ostera[/100.80.244.12:55995] logged in with entity id 310 at (-168.17295168966254, 76.0, 286.78605755679115)
+[12Apr2025 21:01:10.761] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Ostera joined the game
+[12Apr2025 21:01:12.391] [Server thread/INFO] [voicechat/]: [voicechat] Received secret request of Ostera (18)
+[12Apr2025 21:01:12.392] [Server thread/INFO] [voicechat/]: [voicechat] Sent secret to Ostera
+[12Apr2025 21:01:15.422] [Server thread/INFO] [net.minecraft.server.commands.LocateCommand/]: Locating element minecraft:plains took 65 ms
+[12Apr2025 21:01:16.866] [VoiceChatPacketProcessingThread/INFO] [voicechat/]: [voicechat] Successfully authenticated player 745233b0-54fc-3585-b02b-cc08bb97b580
+[12Apr2025 21:01:17.234] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Agus2000: Teleported Agus2000 to -398.500000, 86.000000, 171.500000]
+[12Apr2025 21:01:17.869] [VoiceChatPacketProcessingThread/INFO] [voicechat/]: [voicechat] Successfully validated connection of player 745233b0-54fc-3585-b02b-cc08bb97b580
+[12Apr2025 21:01:17.871] [VoiceChatPacketProcessingThread/INFO] [voicechat/]: [voicechat] Player Ostera (745233b0-54fc-3585-b02b-cc08bb97b580) successfully connected to voice chat
+[12Apr2025 21:01:36.393] [Server thread/INFO] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Ostera lost connection: Disconnected
+[12Apr2025 21:01:36.394] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Ostera left the game
+[12Apr2025 21:01:36.397] [Server thread/INFO] [voicechat/]: [voicechat] Disconnecting client Ostera
+[12Apr2025 21:01:36.812] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Agus2000: Set the weather to clear]
+[12Apr2025 21:01:41.801] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Agus2000: Set the time to 1000]
+[12Apr2025 21:02:57.604] [Netty Epoll Server IO #2/ERROR] [net.minecraftforge.network.NetworkRegistry/NETREGISTRY]: Channels [teamlapenlib:main,ic_ia:main,alexscaves:main_channel,sophisticatedbackpacks:channel,citadel:main_channel,securitycraft:securitycraft,curios:main,argentinas_delight:argentinas_delight,alexsmobs:main_channel,playerrevive:main,creativecore:main,sophisticatedcore:channel,ic_ip:main,lootr:main_network_channel,vampirism:main] rejected vanilla connections
+[12Apr2025 21:02:57.605] [Netty Epoll Server IO #2/INFO] [net.minecraftforge.server.ServerLifecycleHooks/SERVERHOOKS]: [/100.127.199.75:60186] Disconnecting VANILLA connection attempt: This server has mods that require Forge to be installed on the client. Contact your server admin for more details.
+[12Apr2025 21:03:07.542] [Server thread/INFO] [net.minecraft.server.players.PlayerList/]: genaraab[/100.65.35.55:53467] logged in with entity id 1547 at (-133.2495070314432, 75.0, 330.69999998807907)
+[12Apr2025 21:03:07.552] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: genaraab joined the game
+[12Apr2025 21:03:07.866] [Server thread/INFO] [voicechat/]: [voicechat] Received secret request of genaraab (18)
+[12Apr2025 21:03:07.867] [Server thread/INFO] [voicechat/]: [voicechat] Sent secret to genaraab
+[12Apr2025 21:03:09.981] [VoiceChatPacketProcessingThread/INFO] [voicechat/]: [voicechat] Successfully authenticated player 86e5135b-db4e-3616-93e3-4fa422657a9c
+[12Apr2025 21:03:10.983] [VoiceChatPacketProcessingThread/INFO] [voicechat/]: [voicechat] Successfully validated connection of player 86e5135b-db4e-3616-93e3-4fa422657a9c
+[12Apr2025 21:03:10.983] [VoiceChatPacketProcessingThread/INFO] [voicechat/]: [voicechat] Player genaraab (86e5135b-db4e-3616-93e3-4fa422657a9c) successfully connected to voice chat
+[12Apr2025 21:03:13.010] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Agus2000: Teleported genaraab to Agus2000]
+[12Apr2025 21:03:21.045] [Server thread/INFO] [net.minecraft.server.players.PlayerList/]: Weckstone[/100.89.200.33:7885] logged in with entity id 1780 at (-224.5, 78.0, 194.5)
+[12Apr2025 21:03:21.053] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Weckstone joined the game
+[12Apr2025 21:03:21.903] [Server thread/INFO] [voicechat/]: [voicechat] Received secret request of Weckstone (18)
+[12Apr2025 21:03:21.903] [Server thread/INFO] [voicechat/]: [voicechat] Sent secret to Weckstone
+[12Apr2025 21:03:22.663] [Netty Epoll Server IO #0/ERROR] [net.minecraftforge.network.NetworkRegistry/NETREGISTRY]: Channels [teamlapenlib:main,ic_ia:main,alexscaves:main_channel,sophisticatedbackpacks:channel,citadel:main_channel,securitycraft:securitycraft,curios:main,argentinas_delight:argentinas_delight,alexsmobs:main_channel,playerrevive:main,creativecore:main,sophisticatedcore:channel,ic_ip:main,lootr:main_network_channel,vampirism:main] rejected vanilla connections
+[12Apr2025 21:03:22.663] [Netty Epoll Server IO #0/INFO] [net.minecraftforge.server.ServerLifecycleHooks/SERVERHOOKS]: [/100.127.199.75:60199] Disconnecting VANILLA connection attempt: This server has mods that require Forge to be installed on the client. Contact your server admin for more details.
+[12Apr2025 21:03:25.987] [VoiceChatPacketProcessingThread/INFO] [voicechat/]: [voicechat] Successfully authenticated player c18264b0-4ecc-35bd-9b04-1a8072c0ebf9
+[12Apr2025 21:03:26.980] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: genaraab has made the advancement [Mine? Mine? Mine?]
+[12Apr2025 21:03:26.988] [VoiceChatPacketProcessingThread/INFO] [voicechat/]: [voicechat] Successfully validated connection of player c18264b0-4ecc-35bd-9b04-1a8072c0ebf9
+[12Apr2025 21:03:26.988] [VoiceChatPacketProcessingThread/INFO] [voicechat/]: [voicechat] Player Weckstone (c18264b0-4ecc-35bd-9b04-1a8072c0ebf9) successfully connected to voice chat
+[12Apr2025 21:03:30.673] [Netty Epoll Server IO #2/ERROR] [net.minecraftforge.network.NetworkRegistry/NETREGISTRY]: Channels [teamlapenlib:main,ic_ia:main,alexscaves:main_channel,sophisticatedbackpacks:channel,citadel:main_channel,securitycraft:securitycraft,curios:main,argentinas_delight:argentinas_delight,alexsmobs:main_channel,playerrevive:main,creativecore:main,sophisticatedcore:channel,ic_ip:main,lootr:main_network_channel,vampirism:main] rejected vanilla connections
+[12Apr2025 21:03:30.674] [Netty Epoll Server IO #2/INFO] [net.minecraftforge.server.ServerLifecycleHooks/SERVERHOOKS]: [/100.127.199.75:60201] Disconnecting VANILLA connection attempt: This server has mods that require Forge to be installed on the client. Contact your server admin for more details.
+[12Apr2025 21:03:41.847] [Server thread/INFO] [net.minecraft.server.players.PlayerList/]: Ostera[/100.80.244.12:56031] logged in with entity id 2089 at (-164.60116130929285, 74.54913854522003, 284.0434420280644)
+[12Apr2025 21:03:41.853] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Ostera joined the game
+[12Apr2025 21:03:42.266] [Server thread/INFO] [voicechat/]: [voicechat] Received secret request of Ostera (18)
+[12Apr2025 21:03:42.266] [Server thread/INFO] [voicechat/]: [voicechat] Sent secret to Ostera
+[12Apr2025 21:03:45.052] [VoiceChatPacketProcessingThread/INFO] [voicechat/]: [voicechat] Successfully authenticated player 745233b0-54fc-3585-b02b-cc08bb97b580
+[12Apr2025 21:03:46.054] [VoiceChatPacketProcessingThread/INFO] [voicechat/]: [voicechat] Successfully validated connection of player 745233b0-54fc-3585-b02b-cc08bb97b580
+[12Apr2025 21:03:46.055] [VoiceChatPacketProcessingThread/INFO] [voicechat/]: [voicechat] Player Ostera (745233b0-54fc-3585-b02b-cc08bb97b580) successfully connected to voice chat
+[12Apr2025 21:03:47.045] [Server thread/INFO] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Ostera lost connection: Disconnected
+[12Apr2025 21:03:47.045] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Ostera left the game
+[12Apr2025 21:03:47.046] [Server thread/INFO] [voicechat/]: [voicechat] Disconnecting client Ostera
+[12Apr2025 21:03:55.384] [Server thread/ERROR] [net.minecraft.Util/]: Invalid entity rotation: NaN, discarding.
+[12Apr2025 21:03:55.485] [Server thread/ERROR] [net.minecraft.Util/]: Invalid entity rotation: NaN, discarding.
+[12Apr2025 21:03:55.586] [Server thread/ERROR] [net.minecraft.Util/]: Invalid entity rotation: NaN, discarding.
+[12Apr2025 21:03:55.686] [Server thread/ERROR] [net.minecraft.Util/]: Invalid entity rotation: NaN, discarding.
+[12Apr2025 21:03:55.784] [Server thread/ERROR] [net.minecraft.Util/]: Invalid entity rotation: NaN, discarding.
+[12Apr2025 21:03:55.884] [Server thread/ERROR] [net.minecraft.Util/]: Invalid entity rotation: NaN, discarding.
+[12Apr2025 21:03:56.483] [Server thread/ERROR] [net.minecraft.Util/]: Invalid entity rotation: NaN, discarding.
+[12Apr2025 21:03:56.586] [Server thread/ERROR] [net.minecraft.Util/]: Invalid entity rotation: NaN, discarding.
+[12Apr2025 21:03:56.685] [Server thread/ERROR] [net.minecraft.Util/]: Invalid entity rotation: NaN, discarding.
+[12Apr2025 21:03:56.783] [Server thread/ERROR] [net.minecraft.Util/]: Invalid entity rotation: NaN, discarding.
+[12Apr2025 21:03:56.885] [Server thread/ERROR] [net.minecraft.Util/]: Invalid entity rotation: NaN, discarding.
+[12Apr2025 21:03:56.990] [Server thread/ERROR] [net.minecraft.Util/]: Invalid entity rotation: NaN, discarding.
+[12Apr2025 21:03:57.483] [Server thread/ERROR] [net.minecraft.Util/]: Invalid entity rotation: NaN, discarding.
+[12Apr2025 21:03:57.583] [Server thread/ERROR] [net.minecraft.Util/]: Invalid entity rotation: NaN, discarding.
+[12Apr2025 21:03:57.686] [Server thread/ERROR] [net.minecraft.Util/]: Invalid entity rotation: NaN, discarding.
+[12Apr2025 21:03:57.787] [Server thread/ERROR] [net.minecraft.Util/]: Invalid entity rotation: NaN, discarding.
+[12Apr2025 21:03:57.884] [Server thread/ERROR] [net.minecraft.Util/]: Invalid entity rotation: NaN, discarding.
+[12Apr2025 21:03:57.984] [Server thread/ERROR] [net.minecraft.Util/]: Invalid entity rotation: NaN, discarding.
+[12Apr2025 21:03:59.084] [Server thread/ERROR] [net.minecraft.Util/]: Invalid entity rotation: NaN, discarding.
+[12Apr2025 21:03:59.583] [Server thread/ERROR] [net.minecraft.Util/]: Invalid entity rotation: NaN, discarding.
+[12Apr2025 21:03:59.684] [Server thread/ERROR] [net.minecraft.Util/]: Invalid entity rotation: NaN, discarding.
+[12Apr2025 21:03:59.783] [Server thread/ERROR] [net.minecraft.Util/]: Invalid entity rotation: NaN, discarding.
+[12Apr2025 21:03:59.884] [Server thread/ERROR] [net.minecraft.Util/]: Invalid entity rotation: NaN, discarding.
+[12Apr2025 21:03:59.984] [Server thread/ERROR] [net.minecraft.Util/]: Invalid entity rotation: NaN, discarding.
+[12Apr2025 21:04:00.084] [Server thread/ERROR] [net.minecraft.Util/]: Invalid entity rotation: NaN, discarding.
+[12Apr2025 21:04:00.683] [Server thread/ERROR] [net.minecraft.Util/]: Invalid entity rotation: NaN, discarding.
+[12Apr2025 21:04:00.785] [Server thread/ERROR] [net.minecraft.Util/]: Invalid entity rotation: NaN, discarding.
+[12Apr2025 21:04:00.884] [Server thread/ERROR] [net.minecraft.Util/]: Invalid entity rotation: NaN, discarding.
+[12Apr2025 21:04:00.984] [Server thread/ERROR] [net.minecraft.Util/]: Invalid entity rotation: NaN, discarding.
+[12Apr2025 21:04:01.083] [Server thread/ERROR] [net.minecraft.Util/]: Invalid entity rotation: NaN, discarding.
+[12Apr2025 21:04:01.185] [Server thread/ERROR] [net.minecraft.Util/]: Invalid entity rotation: NaN, discarding.
+[12Apr2025 21:04:01.683] [Server thread/ERROR] [net.minecraft.Util/]: Invalid entity rotation: NaN, discarding.
+[12Apr2025 21:04:01.784] [Server thread/ERROR] [net.minecraft.Util/]: Invalid entity rotation: NaN, discarding.
+[12Apr2025 21:04:01.885] [Server thread/ERROR] [net.minecraft.Util/]: Invalid entity rotation: NaN, discarding.
+[12Apr2025 21:04:01.983] [Server thread/ERROR] [net.minecraft.Util/]: Invalid entity rotation: NaN, discarding.
+[12Apr2025 21:04:02.084] [Server thread/ERROR] [net.minecraft.Util/]: Invalid entity rotation: NaN, discarding.
+[12Apr2025 21:04:02.183] [Server thread/ERROR] [net.minecraft.Util/]: Invalid entity rotation: NaN, discarding.
+[12Apr2025 21:04:02.782] [Server thread/ERROR] [net.minecraft.Util/]: Invalid entity rotation: NaN, discarding.
+[12Apr2025 21:04:02.885] [Server thread/ERROR] [net.minecraft.Util/]: Invalid entity rotation: NaN, discarding.
+[12Apr2025 21:04:02.985] [Server thread/ERROR] [net.minecraft.Util/]: Invalid entity rotation: NaN, discarding.
+[12Apr2025 21:04:03.085] [Server thread/ERROR] [net.minecraft.Util/]: Invalid entity rotation: NaN, discarding.
+[12Apr2025 21:04:03.184] [Server thread/ERROR] [net.minecraft.Util/]: Invalid entity rotation: NaN, discarding.
+[12Apr2025 21:04:03.287] [Server thread/ERROR] [net.minecraft.Util/]: Invalid entity rotation: NaN, discarding.
+[12Apr2025 21:04:03.306] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Agus2000: Killed 21 entities]
+[12Apr2025 21:04:03.790] [Server thread/ERROR] [net.minecraft.Util/]: Invalid entity rotation: NaN, discarding.
+[12Apr2025 21:04:03.885] [Server thread/ERROR] [net.minecraft.Util/]: Invalid entity rotation: NaN, discarding.
+[12Apr2025 21:04:03.982] [Server thread/ERROR] [net.minecraft.Util/]: Invalid entity rotation: NaN, discarding.
+[12Apr2025 21:04:04.083] [Server thread/ERROR] [net.minecraft.Util/]: Invalid entity rotation: NaN, discarding.
+[12Apr2025 21:04:04.183] [Server thread/ERROR] [net.minecraft.Util/]: Invalid entity rotation: NaN, discarding.
+[12Apr2025 21:04:04.286] [Server thread/ERROR] [net.minecraft.Util/]: Invalid entity rotation: NaN, discarding.
+[12Apr2025 21:04:04.883] [Server thread/ERROR] [net.minecraft.Util/]: Invalid entity rotation: NaN, discarding.
+[12Apr2025 21:04:04.985] [Server thread/ERROR] [net.minecraft.Util/]: Invalid entity rotation: NaN, discarding.
+[12Apr2025 21:04:05.084] [Server thread/ERROR] [net.minecraft.Util/]: Invalid entity rotation: NaN, discarding.
+[12Apr2025 21:04:05.182] [Server thread/ERROR] [net.minecraft.Util/]: Invalid entity rotation: NaN, discarding.
+[12Apr2025 21:04:05.283] [Server thread/ERROR] [net.minecraft.Util/]: Invalid entity rotation: NaN, discarding.
+[12Apr2025 21:04:05.383] [Server thread/ERROR] [net.minecraft.Util/]: Invalid entity rotation: NaN, discarding.
+[12Apr2025 21:04:09.791] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Agus2000: Teleported 3 entities to Agus2000]
+[12Apr2025 21:04:11.883] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Weckstone has made the advancement [Alex's Mobs]
+[12Apr2025 21:04:16.243] [Server thread/INFO] [net.minecraft.server.players.PlayerList/]: maxiluxmaxxing[/100.102.81.69:62605] logged in with entity id 2448 at (-109.75789141083443, 64.0, 277.7199048449577)
+[12Apr2025 21:04:16.249] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: maxiluxmaxxing joined the game
+[12Apr2025 21:04:17.067] [Server thread/INFO] [voicechat/]: [voicechat] Received secret request of maxiluxmaxxing (18)
+[12Apr2025 21:04:17.067] [Server thread/INFO] [voicechat/]: [voicechat] Sent secret to maxiluxmaxxing
+[12Apr2025 21:04:20.164] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Agus2000: Teleported 4 entities to Agus2000]
+[12Apr2025 21:04:21.883] [VoiceChatPacketProcessingThread/INFO] [voicechat/]: [voicechat] Successfully authenticated player 323edfcc-57b8-34a2-a801-88080d716c6a
+[12Apr2025 21:04:22.870] [VoiceChatPacketProcessingThread/INFO] [voicechat/]: [voicechat] Successfully validated connection of player 323edfcc-57b8-34a2-a801-88080d716c6a
+[12Apr2025 21:04:22.871] [VoiceChatPacketProcessingThread/INFO] [voicechat/]: [voicechat] Player maxiluxmaxxing (323edfcc-57b8-34a2-a801-88080d716c6a) successfully connected to voice chat
+[12Apr2025 21:04:26.425] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Agus2000: Removed 9 item(s) from 4 players]
+[12Apr2025 21:04:31.584] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Agus2000: Set own game mode to Survival Mode]
+[12Apr2025 21:04:31.585] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Agus2000: Set maxiluxmaxxing's game mode to Survival Mode]
+[12Apr2025 21:04:35.984] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Agus2000: Teleported 4 entities to Agus2000]
+[12Apr2025 21:04:37.907] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Agus2000: Set own game mode to Creative Mode]
+[12Apr2025 21:04:58.042] [Server thread/INFO] [net.minecraft.server.players.PlayerList/]: Ostera[/100.80.244.12:56105] logged in with entity id 2784 at (-163.30981607623806, 74.54913854522003, 279.5984116397999)
+[12Apr2025 21:04:58.049] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Ostera joined the game
+[12Apr2025 21:04:58.440] [Server thread/INFO] [voicechat/]: [voicechat] Received secret request of Ostera (18)
+[12Apr2025 21:04:58.440] [Server thread/INFO] [voicechat/]: [voicechat] Sent secret to Ostera
+[12Apr2025 21:05:00.675] [VoiceChatPacketProcessingThread/INFO] [voicechat/]: [voicechat] Successfully authenticated player 745233b0-54fc-3585-b02b-cc08bb97b580
+[12Apr2025 21:05:01.681] [VoiceChatPacketProcessingThread/INFO] [voicechat/]: [voicechat] Successfully validated connection of player 745233b0-54fc-3585-b02b-cc08bb97b580
+[12Apr2025 21:05:01.682] [VoiceChatPacketProcessingThread/INFO] [voicechat/]: [voicechat] Player Ostera (745233b0-54fc-3585-b02b-cc08bb97b580) successfully connected to voice chat
+[12Apr2025 21:05:27.237] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Agus2000: Teleported 5 entities to Agus2000]
+[12Apr2025 21:05:31.909] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Agus2000: Set Ostera's game mode to Survival Mode]
+[12Apr2025 21:05:43.532] [Netty Epoll Server IO #3/ERROR] [net.minecraftforge.network.NetworkRegistry/NETREGISTRY]: Channels [teamlapenlib:main,ic_ia:main,alexscaves:main_channel,sophisticatedbackpacks:channel,citadel:main_channel,securitycraft:securitycraft,curios:main,argentinas_delight:argentinas_delight,alexsmobs:main_channel,playerrevive:main,creativecore:main,sophisticatedcore:channel,ic_ip:main,lootr:main_network_channel,vampirism:main] rejected vanilla connections
+[12Apr2025 21:05:43.532] [Netty Epoll Server IO #3/INFO] [net.minecraftforge.server.ServerLifecycleHooks/SERVERHOOKS]: [/100.127.199.75:60703] Disconnecting VANILLA connection attempt: This server has mods that require Forge to be installed on the client. Contact your server admin for more details.
+[12Apr2025 21:08:24.287] [Server thread/INFO] [net.minecraft.server.network.ServerLoginPacketListenerImpl/]: com.mojang.authlib.GameProfile@137df881[id=<null>,name=Uripapii,properties={},legacy=false] (/100.127.199.75:60811) lost connection: Disconnected
+[12Apr2025 21:09:03.035] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Ostera has made the advancement [Crops of the Wild]
