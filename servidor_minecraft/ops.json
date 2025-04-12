@@ -1,1 +1,14 @@
-[]
+[
+  {
+    "uuid": "323edfcc-57b8-34a2-a801-88080d716c6a",
+    "name": "maxiluxmaxxing",
+    "level": 4,
+    "bypassesPlayerLimit": false
+  },
+  {
+    "uuid": "c9beb890-2671-3838-a808-2f68a93b3ca2",
+    "name": "Agus2000",
+    "level": 4,
+    "bypassesPlayerLimit": false
+  }
+]
