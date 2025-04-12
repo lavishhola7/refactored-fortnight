@@ -35,6 +35,12 @@
     },
     "done": true
   },
+  "minecraft:nether/explore_nether": {
+    "criteria": {
+      "minecraft:warped_forest": "2025-04-12 03:28:19 +0000"
+    },
+    "done": false
+  },
   "phantasm:recipes/tools/crystalline_shovel": {
     "criteria": {
       "has_stick": "2025-04-12 03:15:39 +0000"
@@ -167,6 +173,12 @@
     },
     "done": true
   },
+  "alexsmobs:alexsmobs/crocodile": {
+    "criteria": {
+      "interact": "2025-04-12 03:25:43 +0000"
+    },
+    "done": true
+  },
   "minecraft:recipes/tools/wooden_shovel": {
     "criteria": {
       "has_stick": "2025-04-12 03:15:39 +0000"
@@ -278,6 +290,12 @@
   "farmersdelight:recipes/combat/flint_knife": {
     "criteria": {
       "has_stick": "2025-04-12 03:15:39 +0000"
+    },
+    "done": true
+  },
+  "minecraft:story/enter_the_nether": {
+    "criteria": {
+      "entered_nether": "2025-04-12 03:28:18 +0000"
     },
     "done": true
   },
@@ -425,6 +443,12 @@
     },
     "done": true
   },
+  "minecraft:nether/root": {
+    "criteria": {
+      "entered_nether": "2025-04-12 03:28:18 +0000"
+    },
+    "done": true
+  },
   "vampirism:recipes/decorations/hunter/cross": {
     "criteria": {
       "has_planks": "2025-04-12 03:11:21 +0000"
@@ -497,6 +521,12 @@
     },
     "done": true
   },
+  "artifacts:amateur_archaeologist": {
+    "criteria": {
+      "find_artifact": "2025-04-12 03:24:35 +0000"
+    },
+    "done": true
+  },
   "minecraft:adventure/adventuring_time": {
     "criteria": {
       "minecraft:snowy_slopes": "2025-04-12 03:09:59 +0000",
@@ -518,6 +548,12 @@
       "rabbit": "2025-04-12 03:11:26 +0000"
     },
     "done": false
+  },
+  "securitycraft:recipes/tools/universal_owner_changer": {
+    "criteria": {
+      "has_name_tag": "2025-04-12 03:24:27 +0000"
+    },
+    "done": true
   },
   "vampirism:recipes/decorations/general/vampire_rack": {
     "criteria": {

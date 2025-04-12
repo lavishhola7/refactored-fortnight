@@ -1444,3 +1444,35 @@
 [12Apr2025 03:27:40.537] [Server thread/ERROR] [net.minecraft.Util/]: Invalid entity rotation: NaN, discarding.
 [12Apr2025 03:27:40.638] [Server thread/ERROR] [net.minecraft.Util/]: Invalid entity rotation: NaN, discarding.
 [12Apr2025 03:27:40.737] [Server thread/ERROR] [net.minecraft.Util/]: Invalid entity rotation: NaN, discarding.
+[12Apr2025 03:28:18.170] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: maxiluxmaxxing has made the advancement [We Need to Go Deeper]
+[12Apr2025 03:28:19.676] [Server thread/WARN] [net.minecraft.server.MinecraftServer/]: Can't keep up! Is the server overloaded? Running 3844ms or 76 ticks behind
+[12Apr2025 03:28:25.241] [Server thread/WARN] [de.teamlapen.vampirism.entity.ModEntityEventHandler/]: Could not modify villager zombie attack target task for translation{key='entity.minecraft.zombified_piglin', args=[]}
+[12Apr2025 03:28:41.452] [Server thread/INFO] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Agus2000 lost connection: Disconnected
+[12Apr2025 03:28:41.453] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Agus2000 left the game
+[12Apr2025 03:28:41.456] [Server thread/INFO] [voicechat/]: [voicechat] Disconnecting client Agus2000
+[12Apr2025 03:28:51.713] [Server thread/INFO] [net.minecraft.server.players.PlayerList/]: Agus2000[/100.99.96.52:56076] logged in with entity id 4410 at (-129.48760006438255, 67.12649399206812, 265.2129457393023)
+[12Apr2025 03:28:51.730] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Agus2000 joined the game
+[12Apr2025 03:28:51.751] [Server thread/INFO] [Jade/]: Syncing config to Agus2000 (c9beb890-2671-3838-a808-2f68a93b3ca2)
+[12Apr2025 03:28:52.001] [Server thread/INFO] [voicechat/]: [voicechat] Received secret request of Agus2000 (18)
+[12Apr2025 03:28:52.002] [Server thread/INFO] [voicechat/]: [voicechat] Sent secret to Agus2000
+[12Apr2025 03:28:54.581] [VoiceChatPacketProcessingThread/INFO] [voicechat/]: [voicechat] Successfully authenticated player c9beb890-2671-3838-a808-2f68a93b3ca2
+[12Apr2025 03:28:55.583] [VoiceChatPacketProcessingThread/INFO] [voicechat/]: [voicechat] Successfully validated connection of player c9beb890-2671-3838-a808-2f68a93b3ca2
+[12Apr2025 03:28:55.584] [VoiceChatPacketProcessingThread/INFO] [voicechat/]: [voicechat] Player Agus2000 (c9beb890-2671-3838-a808-2f68a93b3ca2) successfully connected to voice chat
+[12Apr2025 03:28:57.288] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Agus2000 has made the advancement [We Need to Go Deeper]
+[12Apr2025 03:29:19.688] [Server thread/INFO] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: maxiluxmaxxing lost connection: Disconnected
+[12Apr2025 03:29:19.688] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: maxiluxmaxxing left the game
+[12Apr2025 03:29:19.689] [Server thread/INFO] [voicechat/]: [voicechat] Disconnecting client maxiluxmaxxing
+[12Apr2025 03:29:20.820] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Agus2000: Made maxiluxmaxxing no longer a server operator]
+[12Apr2025 03:31:08.290] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Stopping the server
+[12Apr2025 03:31:08.333] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Stopping server
+[12Apr2025 03:31:08.333] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving players
+[12Apr2025 03:31:08.336] [Server thread/INFO] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Agus2000 lost connection: Disconnected
+[12Apr2025 03:31:08.337] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Agus2000 left the game
+[12Apr2025 03:31:08.339] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving worlds
+[12Apr2025 03:31:08.795] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[world]'/minecraft:overworld
+[12Apr2025 03:31:09.811] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[world]'/minecraft:the_nether
+[12Apr2025 03:31:09.812] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[world]'/minecraft:the_end
+[12Apr2025 03:31:09.869] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: ThreadedAnvilChunkStorage (world): All chunks are saved
+[12Apr2025 03:31:09.869] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: ThreadedAnvilChunkStorage (DIM-1): All chunks are saved
+[12Apr2025 03:31:09.869] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: ThreadedAnvilChunkStorage (DIM1): All chunks are saved
+[12Apr2025 03:31:09.869] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: ThreadedAnvilChunkStorage: All dimensions are saved
